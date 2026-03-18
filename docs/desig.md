@@ -1,20 +1,19 @@
 # Diseño de la solución
 
-## Algoritmo versión 1
+## Algoritmo 
+- Lista/ estructura de reguladores (sin repeticiones). 
+- Lista de genes del regulador (sin repeticiones)*
+- Recorrer todas las interacciones (línea). 
+- Para cada interacción
+  - Obtener el TF 
+  - Obtener el gene
+  - Si el TF no está en la lista de reguladores:
+    - Guardar el TF en una estructura/lista
+  - Si el gene no está en la lista de genes regulados por regulador
+    - Guarda el gene asociado 
 
-1. Crear una lista de TFs encontrados.
+- Recorrer toda la lista de los reguladores 
+ - Contar los genes de la lista de genes regulados por el TF 
+ - Imprime regulador, conteo, lista de genes 
 
-2. Recorrer todas las interacciones.
 
-3. Para cada interacción:
-   - obtener el TF
-   - si el TF no está en la lista, agregarlo.
-
-4. Para cada TF encontrado:
-   - crear una lista de genes
-   - recorrer las interacciones
-   - agregar genes asociados
-
-5. Contar genes por TF.
-
-6. Imprimir la tabla resumen.
