@@ -1,28 +1,40 @@
 
-regulon = {}
-
+# Datos de ejemplo 
 interacciones = [
-    ("AraC", "araA", "+"),
-    ("AraC", "araB", "-"),
-    ("LexA", "recA", "-"),
-    ("CRP", "lacZ", "+"),
-    ("CRP", "lacY", "+"), 
+   ("LexA", "recA", "-"),
+    ("LexA", "umuC", "-"),
+    ("AraC", "araE", "+"),
+    ("AraC", "araA", "-")
 ]
-    
-for linea in sorted(interacciones):
-        tf, target, reg = linea
-        
+
+# Construir diccionario de TF y lista de genes
+
+regulon = {}
+## 
+clasificacion = {}
+
+for tf, gen, efecto in interacciones:
         if tf not in regulon:
             regulon[tf] = []
         
-        if target not in regulon[tf]:
-            regulon[tf].append(target)
+        if gen not in regulon[tf]:
+            regulon[tf].append(gen)
+        
+        if tf not in clasificacion:
+             clasificacion[tf]= { '+' : 0 , '-' : 0    }
+        if efecto in { '+', '-' }: 
+            clasificacion[tf][efecto] += 1
 
-# imprimir tabla final
-print("Gen | No. de genes que regula | Genes regulados")
 
+    
+
+
+# Imprimir la tabla final
+print("TF | No. de genes que regula | Genes regulados | + | -")
 for tf in regulon:
     numero = len(regulon[tf])
-    genes = ", ".join(regulon[tf]) # Puse el join para deshacerme de la estructura de lista en el print
-    
-    print(tf, "|", numero, "|", genes)
+    genes = ", ".join(regulon[tf])
+    mas = clasificacion.get(tf, {}).get("+", 0)
+    menos = clasificacion.get(tf, {}).get("-", 0)
+    print(tf, "|", numero, "|", genes, "|", mas, "|", menos)
+

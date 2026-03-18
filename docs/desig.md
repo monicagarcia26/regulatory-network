@@ -16,3 +16,9 @@
  - Contar los genes de la lista de genes regulados por el TF 
  - Imprime regulador, conteo, lista de genes 
 
+**Extensión**
+
+- Clasificar cada Tf como: 
+ - activador 
+ - represor 
+ - dual

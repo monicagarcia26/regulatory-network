@@ -1,0 +1,1 @@
+En biología molecular, un regulón es el conjunto de genes que están bajo el control de un mismo factor de transcripción (TF). Es decir, todos los genes que un TF regula (ya sea activándolos o reprimiéndolos) forman parte de su regulón.
