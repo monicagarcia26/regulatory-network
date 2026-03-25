@@ -1,16 +1,20 @@
 
-# Datos de ejemplo 
+# Datos de ejemplo:
+
 interacciones = [
-   ("LexA", "recA", "-"),
-    ("LexA", "umuC", "-"),
-    ("AraC", "araE", "+"),
-    ("AraC", "araA", "-")
+    ("TF1", "GeneA", "+"),
+    ("TF1", "GeneB", "-"),
+    ("TF2", "GeneC", "+"),
+    ("TF2", "GeneD", "+"),
+    ("TF3", "GeneE", "-"),
+    ("TF3", "GeneF", "-"),
+    ("TF3", "GeneG", "+")
 ]
 
 # Construir diccionario de TF y lista de genes
 
 regulon = {}
-## 
+
 clasificacion = {}
 
 for tf, gen, efecto in interacciones:
@@ -21,15 +25,13 @@ for tf, gen, efecto in interacciones:
             regulon[tf].append(gen)
         
         if tf not in clasificacion:
-             clasificacion[tf]= { '+' : 0 , '-' : 0    }
+             clasificacion[tf]= { '+' : 0 , '-' : 0 }
         if efecto in { '+', '-' }: 
             clasificacion[tf][efecto] += 1
 
 
-    
-
-
 # Imprimir la tabla final
+
 print("TF | No. de genes que regula | Genes regulados | + | -")
 for tf in regulon:
     numero = len(regulon[tf])
