@@ -1,0 +1,317 @@
+TF | No. de genes que regula | Genes regulados | + | -
+ppGpp | 306 | hisM, agp, cysQ, argI, argS, argT, aroM, bolA, cadA, crp, cspA, dacC, dksA, dnaA, dnaN, fadL, fimB, fis, frr, ftsA, ftsQ, ftsZ, gabT, ggt, mnmG, rsmG, glgA, glgC, glgP, hisP, hmp, hns, ilvA, ilvB, ilvD, ilvE, ilvH, ilvI, ilvM, ilvN, infA, katE, rpoS, leuO, livJ, lrp, lysS, mazG, osmB, osmC, pcnB, phr, pnp, poxB, prfB, priB, pth, pyrB, pyrI, queA, recF, relA, rnpA, rplI, rpmE, rpmH, rpsB, rpsF, rpsO, rpsR, speC, tgt, thrA, thrB, thrC, tpr, treA, trxA, tsf, tufB, yaiA, yajC, ybaA, ybgA, cspD, rluC, yhhA, mioC, argH, leuA, uspE, iraP, ilvL, ivbL, thrL, pyrL, leuL, yghA, dusB, acnA, gabD, gabP, msyB, gluQ, folK, sufA, glgS, uspA, osmY, hdeA, hdeB, yhiD, ychF, dps, csrA, gadB, qorA, hdeD, sra, ycgB, fadD, cfa, ychH, wrbA, gadE, thiQ, thiP, thiB, leuD, leuC, leuB, otsA, otsB, setA, talA, yebF, aidB, yiiS, uspD, rpoE, yjbJ, yehE, yehW, yehX, yehY, osmF, yohC, yojI, sgrR, efp, tktB, prfC, rssB, hisJ, hisQ, narU, cbpA, cbpM, uspB, dtpB, mdtE, mdtF, gadX, treF, rseA, lhgD, yiaG, grxB, yccJ, ybeL, alaT, alaU, alaV, argX, glnU, glnV, glnW, glnX, gltT, gltU, gltV, gltW, glyT, hisR, ileT, ileU, ileV, leuT, leuV, leuW, leuX, metT, metU, metV, metZ, proM, rrfA, rrfB, rrfC, rrfD, rrfE, rrfG, rrfH, rrlA, rrlB, rrlC, rrlD, rrlE, rrlG, rrlH, rrsA, rrsB, rrsC, rrsD, rrsE, rrsG, rrsH, rrfF, serW, thrT, thrU, thrV, tyrT, tyrU, tyrV, metW, rmf, gadA, sgrT, ilvX, gadF, idlP, ytiC, ytiD, csrB, csrC, tff, isrC, sroA, sroD, ecnB, sgrS, yahO, yajO, glsA, ybaT, ybdK, ybgS, ybhN, clsB, ybhP, ybjP, ftsK, ycaP, csgI, yccU, csgG, csgF, csgE, csgD, ariR, ydcK, ydcL, curA, adhP, gadC, tam, ynfD, sodC, ldtE, sufE, sufS, sufD, sufC, sufB, yniA, yeaG, yeaH, yeaQ, yoaC, yebV, uspC, yedP, hchA, flu, yegP, fbaB, elaB, yfcZ, rseC, rseB, glaH, kbp, yqaE, dkgA, patA, yqjF, yhbO, yhcO, fkpA, ysgA, blc, yjfY, yjgH, iraD, ilvG | 194 | 112
+AcnB | 1 | acnB | 1 | 0
+DicF | 4 | ftsZ, manX, pykA, xylR | 0 | 4
+DsrA | 10 | hns, rpoS, lrp, rbsA, rbsB, rbsC, rbsD, rbsK, rbsR, rbsZ | 1 | 9
+DeaD | 1 | ldtD | 1 | 0
+Hfq | 6 | manX, hpf, ptsN, cirA, mutS, oppA | 1 | 5
+Pnp | 1 | pnp | 0 | 1
+RplA | 6 | rplA, rplJ, rplK, rplL, rpoB, rpoC | 0 | 6
+RplD | 1 | tnaA | 0 | 1
+RplM | 2 | rplM, rpsI | 0 | 2
+RplT | 2 | rplT, rpmI | 0 | 2
+RplY | 1 | rplY | 0 | 1
+RpmE | 1 | rpmE | 0 | 1
+RpsA | 5 | fis, manY, pnp, rpsA, rpsO | 4 | 1
+RpsB | 3 | rpsB, tsf, tff | 0 | 3
+RpsD | 4 | rplQ, rpsD, rpsK, rpsM | 0 | 4
+RpsG | 4 | fusA, rpsG, rpsL, tufA | 0 | 4
+RpsH | 12 | secY, rplE, rplF, rplN, rplO, rplR, rplX, rpmD, rpsE, rpsH, rpsN, rpmJ | 0 | 12
+RpsO | 1 | rpsO | 0 | 1
+CsrA | 16 | gadB, gadE, moaA, moaB, moaD, moaE, moaC, rpoE, gadA, idlP, ytiC, ytiD, ymdA, gadC, ydeO, iraD | 6 | 10
+GcvB | 60 | aroC, aroP, asd, asnA, asnB, cstA, dppA, gdhA, gltP, icd, ilvB, ilvD, ilvM, kgtP, lrp, map, nlpA, oppA, oppB, oppC, oppD, oppF, oxyR, phoP, phoQ, rbsA, rbsB, rbsC, rbsD, rbsK, rbsR, trpA, trpB, trpC, trpD, trpE, ilvL, trpL, ivbL, inaA, acs, ydeE, panD, purU, hisQ, cycA, dppB, dppC, dppD, dppF, sstT, rbsZ, csgG, csgF, csgE, csgD, tcyJ, rbn, mltC, ysgA | 2 | 58
+McaS | 6 | flhC, flhD, csgG, csgF, csgE, csgD | 2 | 4
+GadY | 2 | gadW, gadX | 2 | 0
+MicF | 7 | cpxR, cpxA, lrp, ompF, oppA, phoE, tcyJ | 1 | 6
+OxyS | 10 | fhlA, flhC, flhD, rpoS, nusG, iscA, mepS, iscU, iscS, iscR | 4 | 6
+ChiX | 6 | chbC, chiZ, dpiB, dpiA, chiP, chiQ | 0 | 6
+SgrS | 10 | asd, manX, manY, manZ, ptsG, purR, yeiB, folE, yigL, adiY | 1 | 9
+IstR-1 | 1 | tisB | 0 | 1
+RseX | 4 | fimB, ihfB, ompA, ompC | 0 | 4
+RydC | 12 | pheA, trpA, trpB, trpC, trpD, trpE, trpL, cfa, csgG, csgF, csgE, csgD | 7 | 5
+OhsC | 1 | shoB | 0 | 1
+SymR | 1 | symE | 0 | 1
+MgrR | 4 | soxS, pitA, eptB, ygdQ | 0 | 4
+FnrS | 20 | cydC, glpD, metE, maeA, sodA, sodB, yeiB, folE, cydD, marA, gpmA, yieP, azuC, azuR, yebY, yebZ, yobA, folX, yfcH, iscR | 0 | 20
+ArrS | 3 | cfa, gadE, gadF | 3 | 0
+SdsN | 3 | hmp, nfsA, narP | 0 | 3
+AgrB | 1 | dinQ | 0 | 1
+RalA | 1 | ralR | 0 | 1
+MicL | 1 | lpp | 0 | 1
+CpxQ | 3 | skp, cfa, cpxP | 0 | 3
+SdhX | 6 | ackA, fdhE, katG, fdoI, fdoH, fdoG | 0 | 6
+C0293 | 3 | fadR, iroK, hcaR | 0 | 3
+MalH | 1 | ompC | 0 | 1
+FliX | 12 | fliC, rplB, rplC, rplD, rplP, rplV, rplW, rpmC, rpsC, rpsJ, rpsQ, rpsS | 0 | 12
+MotR | 12 | fliC, rplB, rplC, rplD, rplP, rplV, rplW, rpmC, rpsC, rpsJ, rpsQ, rpsS | 12 | 0
+UhpU | 2 | fliC, lrhA | 1 | 1
+AzuR | 2 | cadA, galE | 0 | 2
+FimR2 | 5 | fliG, fliR, hofQ, fliI, fliJ | 1 | 4
+GlnZ | 2 | glnP, sucA | 0 | 2
+AsflhD | 1 | flhD | 0 | 1
+StfZ | 1 | ftsZ | 0 | 1
+AmeF | 2 | mazE, mazF | 2 | 0
+YrdG | 1 | mscL | 0 | 1
+RprA | 9 | rpoS, hdeD, narP, lrhA, csgG, csgF, csgE, csgD, dgcM | 1 | 8
+RybB | 15 | fadL, nmpC, ompC, ompF, rbsB, sdhC, tsx, ompW, maoP, rluD, fiu, csgG, csgF, csgE, csgD | 1 | 14
+SdsR | 5 | mutS, tolC, yeaG, yeaH, yhcB | 0 | 5
+CyaR | 9 | rpoS, nadE, hdeD, ompX, yacL, luxS, yliM, yobF, yqaE | 0 | 9
+OmrB | 12 | cirA, fepA, flhC, flhD, ompR, ompT, flgM, csgG, csgF, csgE, csgD, dgcM | 0 | 12
+SibC | 1 | ibsC | 0 | 1
+Spf | 27 | yjiA, araF, ascF, ebgC, fucI, fucK, fucP, galK, gdhA, glpF, gltA, sdhC, maeA, sucC, sthA, caiA, atoD, lldP, dppB, gss, xylF, nanT, puuE, paaK, ytfJ, nanC, srlA | 2 | 25
+MicA | 18 | fimB, lamB, ompA, pal, phoP, phoQ, tolB, tsx, ompW, ompX, ygiM, cpoB, yliM, ecnB, ldtC, gloA, lpxT, yfeK | 0 | 18
+OmrA | 12 | cirA, fepA, flhC, flhD, ompR, ompT, flgM, csgG, csgF, csgE, csgD, dgcM | 0 | 12
+SraG | 1 | pnp | 0 | 1
+ArcZ | 6 | flhC, flhD, rpoS, mutS, lrhA, eptB | 1 | 5
+RyhB | 45 | bfr, cirA, cysE, fumA, fur, hemB, hemH, nirB, sdhA, sdhB, sdhC, sdhD, sodA, sodB, sucA, sucB, sucC, sucD, marA, yieP, nuoM, nuoF, nuoA, nuoB, nuoC, nuoE, nuoG, nuoH, nuoI, nuoJ, nuoK, nuoL, nuoN, iscA, grxD, acnB, erpA, msrB, uof, sdhX, b0725, shiA, iscU, iscS, iscR | 2 | 43
+GlmZ | 2 | glmS, glmU | 2 | 0
+MicC | 1 | ompC | 0 | 1
+acetyl-CoA carboxyltransferase | 2 | accD, accA | 0 | 2
+ribonuclease E | 1 | rne | 0 | 1
+carbon storage regulator CsrA | 14 | glgA, glgC, glgP, sdiA, nhaR, acnA, glgS, evgA, dgcZ, pgaD, pgaC, pgaB, pgaA, dgcT | 0 | 14
+SelB-L-selenocysteinyl-tRNA<sup>sec</sup> | 2 | selA, selB | 0 | 2
+small heat shock protein IbpA | 2 | ibpA, ibpB | 0 | 2
+S6:S18 ribosomal subunit complex | 4 | priB, rplI, rpsF, rpsR | 0 | 4
+ATP-dependent RNA helicase DeaD | 3 | sdiA, uvrY, mntR | 3 | 0
+threonine&mdash;tRNA ligase | 1 | thrS | 0 | 1
+YafC | 1 | cysJ | 1 | 0
+NemR | 3 | nemR, nemA, gloA | 0 | 3
+PhoP | 57 | argD, cysB, fadL, glgA, glgB, glgC, glgP, glgX, hemL, metB, metL, nagA, ompT, purD, purH, tolC, ygiB, ygiC, rstB, malS, hdeA, hdeB, yhiD, hdeD, gadE, acrA, acrB, rsd, pagP, treR, gadW, mgtA, rmf, ryjB, mgrR, mgtL, gadF, mgtS, borD, ybjG, clpS, rutG, rutF, rutE, rutD, rutC, rutB, rutA, iraM, ydeO, safA, ydeP, rstA, mgrB, queE, yrbL, dcuD | 46 | 11
+NhaR | 37 | nhaA, osmC, nhaR, rsd, alaU, alaV, gltT, gltU, gltV, gltW, ileU, ileV, rrfB, rrfC, rrfD, rrfE, rrfG, rrfH, rrlB, rrlC, rrlD, rrlE, rrlG, rrlH, rrsB, rrsC, rrsD, rrsE, rrsG, rrsH, rrfF, thrV, rmf, pgaD, pgaC, pgaB, pgaA | 20 | 17
+NsrR | 86 | aceE, aceF, cdd, moeA, moeB, fhlA, ihfA, hmp, hycA, hycB, hycC, hycD, hycE, hycF, hycG, hycH, hypA, hypB, hypC, hypD, hypE, infC, lrp, ndh, pheS, pheT, poxB, wecA, rplT, bamE, sodB, thrS, rpmI, tsgA, waaH, pheM, ygbA, wzzE, ydbD, fliA, fliZ, pgpC, tadA, sufA, wecB, wecC, rffG, rffH, rffC, wecE, wzyE, rffM, wzxE, dkgB, nrfA, tehA, tehB, nrfB, nrfC, nrfD, nrfE, nrfF, nrfG, norR, grxD, dsdC, rybB, mhpT, hcr, hcp, feaR, mepH, sufE, sufS, sufD, sufC, sufB, yeaE, yoaG, yeaR, tcyJ, hycI, wecF, ytfE, bdcA, feaB | 2 | 84
+TorR | 19 | rpoS, tnaA, tnaB, tnaC, hdeA, hdeB, yhiD, gadB, adiA, gadE, torA, torC, slp, torD, mdtE, mdtF, adiC, torR, gadC | 18 | 1
+FabR | 2 | fabA, fabB | 0 | 2
+ComR | 1 | bhsA | 0 | 1
+ArgR | 64 | hisM, argA, argB, argC, argD, argF, argG, argI, argR, aroK, aroP, carA, carB, cvpA, dacC, ftsZ, gltB, gltD, gltP, hisP, infB, waaA, lrp, nusA, pfkB, pnp, rpsO, yffB, truB, rbfA, rimP, argH, mukE, hisL, pyrL, argE, dps, gltF, stpA, yaaU, artP, artI, artQ, artM, artJ, potF, puuB, hisJ, hisQ, metY, mcaS, ykgA, lysO, ydgI, astE, astB, astD, astA, astC, hchA, yfcC, eutS, yraQ, yhcC | 13 | 51
+IlvY | 2 | ilvC, ilvY | 1 | 1
+RcnR | 3 | rcnR, rcnA, rcnB | 0 | 3
+CytR | 14 | cdd, cytR, deoA, deoB, deoC, deoD, nupG, ppiA, rpoH, tsx, udp, aphA, nupC, ycdZ | 0 | 14
+MlrA | 10 | cadC, yhbE, rplU, rpmA, csgG, csgF, csgE, csgD, obgE, ibaG | 10 | 0
+PrpR | 5 | prpR, prpB, prpC, prpD, prpE | 4 | 1
+MatA | 9 | flhC, flhD, fliC, fliA, fliZ, fliX, ecpA, matA, tcyJ | 2 | 7
+AlaS | 1 | alaS | 0 | 1
+ArgP | 15 | asd, dapB, dapD, dnaA, dnaN, gdhA, argP, lysA, lysC, nrdA, nrdB, recF, argO, lysP, yfaE | 14 | 1
+GlcC | 7 | glcB, glcF, glcA, glcG, glcE, glcD, glcC | 6 | 1
+PuuR | 8 | puuC, puuB, puuR, ymjE, puuP, puuA, puuD, puuE | 0 | 8
+YiaU | 6 | gltD, waaP, adeP, yiaT, yiaV, yiaW | 6 | 0
+FeaR | 2 | tynA, feaB | 2 | 0
+NtrC | 45 | hisM, argT, hisP, relA, potF, potG, potH, potI, amtB, rpoE, hisJ, hisQ, glnK, rseA, yhdW, yhdX, yhdY, yhdZ, rseD, rutG, rutF, rutE, rutD, rutC, rutB, rutA, ddpF, ddpD, ddpC, ddpB, ddpA, ddpX, astE, astB, astD, astA, astC, yeaE, yeaG, yeaH, cbl, nac, rseC, rseB, patA | 44 | 1
+Mlc | 10 | crr, malT, manX, manY, manZ, ptsG, ptsH, ptsI, bidA, mlc | 0 | 10
+SrsR | 38 | adhE, fucA, fucI, fucK, fucO, fucP, fucR, fucU, hycB, narZ, pflB, dhaM, yafQ, dinJ, yafL, bluR, dhaL, dhaK, paaZ, paaA, paaB, paaC, paaD, paaE, paaF, paaG, paaH, paaI, paaJ, paaK, cdgI, yfdK, yfdL, yfdM, yfdN, yfdO, yfdP, yfdQ | 38 | 0
+YeiL | 1 | yeiL | 1 | 0
+MprA | 6 | mprA, nmpC, emrA, emrB, acrA, acrB | 0 | 6
+FrmR | 3 | frmA, frmB, frmR | 0 | 3
+TdcA | 7 | tdcA, tdcB, tdcC, tdcD, tdcG, tdcF, tdcE | 7 | 0
+EvgA | 21 | acrD, gadE, evgA, evgS, mdtE, mdtF, emrY, gadF, evgL, ydeO, safA, ydeP, yegZ, G7121, yegR, emrK, yfdE, yfdV, oxc, frc, yfdX | 21 | 0
+TyrR | 11 | aroF, aroG, aroL, aroM, aroP, folA, mtr, tyrA, tyrB, tyrR, yaiA | 2 | 9
+CaiF | 10 | caiD, caiC, caiB, caiA, caiT, fixA, fixB, fixC, fixX, caiE | 10 | 0
+GadW | 8 | gadE, dctR, slp, mdtE, mdtF, gadW, gadF, gadY | 4 | 4
+IdnR | 7 | idnK, idnT, gntK, gntU, idnR, idnO, idnD | 5 | 2
+RhaS | 6 | rhaR, rhaS, rhaT, rhaD, rhaA, rhaB | 6 | 0
+UvrY | 6 | uhpT, luxS, uhpU, csrB, csrC, ydeP | 6 | 0
+DinJ-YafQ | 3 | cspE, yafQ, dinJ | 0 | 3
+HcaR | 7 | iroK, hcaR, hcaC, hcaB, hcaD, hcaE, hcaF | 5 | 2
+CysB | 33 | cysA, cysB, cysC, cysD, cysH, cysI, cysJ, cysK, cysM, cysN, cysP, cysU, cysW, dgcZ, ssuB, tauD, tauA, tauB, tauC, ybdN, ssuC, ssuD, ssuA, ssuE, ariR, yciW, hslJ, tcyP, yoaC, tcyJ, cbl, yfbR, ygeH | 26 | 7
+NfeR | 2 | nfeF, nfeR | 0 | 2
+CspA | 2 | gyrA, hns | 2 | 0
+MazE | 3 | mazE, mazG, mazF | 0 | 3
+PspF | 8 | pspA, pspB, pspC, pspD, pspE, pspG, pspF, pspH | 7 | 1
+CpxR | 130 | acrD, cpxR, aroG, ascF, atpB, atpI, carA, carB, cheA, cheW, cpxA, cspA, dgt, edd, exbB, fimB, lpxD, hha, skp, degP, lpxA, metC, motA, motB, ompC, ompF, pflB, plsB, ppiA, psd, rpoH, sbmA, sdhC, slt, bamE, tsr, ung, dsbC, xylE, mtn, yccA, fdnG, ldtD, focA, fabZ, dsbA, appC, inaA, marA, marR, acs, csgA, yhdJ, marB, baeS, baeR, eamA, ydeE, dgcZ, bacA, yidQ, chaA, yebE, srkA, rpoE, nuoA, mdtD, galP, yibN, gpmM, yacH, rseA, ettA, chaB, tomB, yddG, yhdW, ampH, yfaH, shoB, cpxQ, rseD, motR, rprA, cyaR, fadE, gmhA, matA, frmB, yaiW, ppiD, pdeB, glsA, qmcA, dsbG, hcp, efeU, csgG, csgF, csgE, csgD, csgB, csgC, ldtC, feaR, yncE, gstA, spy, astC, ftnB, cbl, mdtA, mdtB, mdtC, fadI, frc, rseC, rseB, kbp, yqaE, casA, ygjR, yqjA, mzrA, cpxP, epmB, mscM, yjfN, btsT, gapC | 77 | 53
+NarP | 36 | cysG, fdhF, hyaA, hyaB, hyaC, hyaD, hyaE, hyaF, nirB, nirC, nirD, poxB, fdnG, fdnH, fdnI, nrfA, nrfB, nrfC, nrfD, nrfE, nrfF, nrfG, norW, hcr, hcp, ydeP, ydhT, ydhU, ydhX, ydhW, ydhV, ydhY, yoaG, yeaR, norV, ytfE | 18 | 18
+MetJ | 15 | metA, metB, metC, metE, metF, metK, metL, metR, yeiB, folE, ahpC, ahpF, metQ, metN, metI | 0 | 15
+YdaT | 1 | rcsA | 1 | 0
+ZraR | 28 | zraS, cspA, acrE, fhuA, glnA, glnH, zraR, pnp, rfaD, rpoH, sspA, tnaA, tnaB, raiA, fliA, mdtL, zraP, cspB, gadW, mgtA, exuR, yhdW, ssrA, rmf, yrdD, yhhY, cpxP, yjjY | 25 | 3
+AdiY | 8 | gltB, gltD, gadB, adiA, gltF, gadX, gadA, gadC | 8 | 0
+PdeL | 9 | wecA, pdeL, fliF, fliG, fliH, fliI, fliJ, fliK, yghJ | 2 | 7
+H-NS | 239 | hisM, garL, appY, ascF, ascG, bglB, bglF, bglG, bolA, cadA, cadB, cadC, cspA, cydA, cydB, cysA, cysG, cysM, cysP, cysU, cysW, ddlA, entF, acrE, acrF, fepE, fes, fimA, fimB, fimC, fimD, fimE, fimF, fimG, fimH, flhC, flhD, fliC, fucA, gabT, galE, galK, galT, hisP, hns, degP, ilvH, ilvI, lacA, lacY, lacZ, leuO, lrp, malE, malF, malG, mazE, mukB, nhaA, nirB, nirC, nirD, nrdA, nrdB, osmC, proV, proW, proX, rcsA, rcsB, relA, ftnA, srlE, srlB, srlD, gutM, gutQ, srlR, nhaR, cspD, yciE, yciF, yciG, fau, garK, garR, pdeL, chiA, mazF, mukE, iraP, gspB, gabD, gabP, fliA, fliZ, gspO, hdeA, hdeB, yhiD, dps, nrdD, hdfR, gadB, hdeD, adiA, ydcC, gadE, stpA, caiD, caiC, caiB, caiA, caiT, evgA, evgS, dgcZ, yadC, adeD, galM, glvC, dctR, slp, pdeC, adiY, fimI, yehA, yehB, yehC, yehD, hisJ, hisQ, mukF, cmoM, gspM, pagP, cbpA, yhiM, mdtE, mdtF, gadW, gadX, ybgD, yfaE, rcsD, lhgD, adiC, cycA, caiE, ttdR, garP, cas2, alaU, alaV, gltT, gltU, gltW, ileU, ileV, micF, rnpB, rrfB, rrfC, rrfD, rrfG, rrfH, rrlB, rrlC, rrlD, rrlG, rrlH, rrsB, rrsC, rrsD, rrsG, rrsH, rrfF, ssrS, thrV, gadA, ybdZ, gadF, mdtU, evgL, malH, fliX, fimR2, caiF, sfmA, pdeI, elfA, dgcT, csgG, csgF, csgE, csgD, bluF, pdeG, dosC, gadC, ydeO, ydeP, asr, mdtI, mdtJ, rflP, cdgI, dgcJ, tcyJ, hchA, hprR, yfcV, oxc, pdeF, csiE, glaH, cas1, casE, casD, casC, casB, casA, yraH, gspA, gspC, gspD, gspE, gspF, gspG, gspH, gspI, gspJ, gspK, gspL, yjjP, yjjQ, bglJ, nrdG, srlA | 49 | 190
+AlsR | 6 | rpiB, alsE, alsC, alsA, alsB, alsR | 0 | 6
+PaaX | 14 | paaZ, paaA, paaB, paaC, paaD, paaE, paaF, paaG, paaH, paaI, paaJ, paaK, paaX, paaY | 0 | 14
+RclR | 3 | rclC, rclB, rclA | 3 | 0
+LexA | 63 | ddlB, dnaG, lpxC, ftsA, ftsI, ftsQ, ftsW, ftsZ, lexA, mraY, murC, murD, murE, murF, murG, phr, polB, ptrA, recA, recB, recD, recN, recQ, rpoD, rpsU, ssb, sulA, umuC, umuD, uvrA, uvrB, uvrC, uvrD, ftsL, uvrY, dinD, dinG, dinF, ybiB, ybfE, yebG, sbmC, yehF, recX, ftsO, hokE, tisB, dinQ, yafQ, dinJ, dinB, yafN, yafO, yafP, ftsK, dinI, ydjM, cho, yoaA, insK, symE, ruvA, ruvB | 0 | 63
+YqhC | 2 | yqhD, dkgA | 2 | 0
+YefM | 2 | yefM, yoeB | 0 | 2
+YieP | 7 | yieP, yohJ, cusA, dauA, rydC, ykgE, ybiX | 2 | 5
+DeoR | 6 | deoA, deoB, deoC, deoD, nupG, tsx | 0 | 6
+HicB | 2 | hicA, hicB | 0 | 2
+MarA | 60 | aldA, dapD, lpxC, fumC, lpxL, lacA, lacY, lacZ, map, fpr, nfo, poxB, purA, putA, rimK, sodA, tolC, xseA, ygiB, ygiC, zwf, nfsA, acnA, rob, hdeA, hdeB, yhiD, glnD, inaA, waaY, waaZ, marA, marR, marB, acrA, acrB, dctR, slp, pbpG, mdaB, mlaD, mlaE, mlaF, ybjC, micF, nfsB, decR, acrZ, ybjN, pqiA, pqiB, pqiC, ycgZ, ymgA, ariR, ymgC, yncE, yhbW, mlaB, mlaC | 49 | 11
+StpA | 21 | bglB, bglF, bglG, leuO, malE, malF, malG, proV, proW, proX, fau, stpA, cas2, ssrS, malH, cas1, casE, casD, casC, casB, casA | 11 | 10
+DecR | 2 | cyuP, cyuA | 2 | 0
+CadC | 3 | cadA, cadB, cadC | 3 | 0
+GalR | 6 | galR, galS, mglA, mglB, mglC, galP | 0 | 6
+FhlA | 30 | fdhF, fhlA, hycA, hycB, hycC, hycD, hycE, hycF, hycG, hycH, hypA, hypB, hypC, hypD, hypE, hyfA, hyfB, hypF, hydN, hyfC, hyfD, hyfE, hyfF, hyfG, hyfH, hyfI, hyfJ, hyfR, focB, hycI | 30 | 0
+MazEF | 3 | mazE, mazG, mazF | 0 | 3
+HipAB | 5 | hipB, hipA, mazE, relA, mazF | 0 | 5
+MurR | 2 | murQ, murP | 0 | 2
+NarL | 119 | dcuB, cydC, adhE, aspA, moeA, moeB, cysG, dmsA, dmsB, dmsC, fdhF, frdA, frdB, frdC, frdD, fumB, hyaA, hyaB, hyaC, hyaD, hyaE, hyaF, narG, narH, narI, narJ, narK, nirB, nirC, nirD, ogt, pflB, poxB, ompW, dcuA, fdnG, fdnH, fdnI, focA, ubiC, ubiA, cydD, nikR, nuoM, nuoF, hybA, hybB, hybC, hybD, hybE, hybF, hybG, torA, torC, ccmH, ccmG, ccmF, ccmE, ccmC, ccmB, ccmA, napC, napB, napH, napG, napA, napF, nikA, nikB, nikC, nikD, nikE, nuoA, nuoB, nuoC, nuoE, nuoG, nuoH, nuoI, nuoJ, nuoK, nuoL, nuoN, napD, ccmD, torD, norW, narS, aspX, caiF, citG, citX, citF, citE, citD, citC, dpiB, dpiA, hcr, hcp, ydeP, ynfE, ynfF, ynfG, ynfH, dmsD, ydhT, ydhU, ydhX, ydhW, ydhV, ydhY, yoaG, yeaR, norV, hybO, dcuR, dcuS, ytfE | 38 | 81
+HipB | 8 | hipB, hipA, mazE, relA, mazF, fadH, eutA, eutH | 0 | 8
+BluR | 4 | ycgZ, ymgA, ariR, ymgC | 0 | 4
+YgiV | 1 | mcbR | 0 | 1
+MraZ | 18 | ddlB, lpxC, ftsA, ftsI, ftsQ, ftsW, ftsZ, mraY, murC, murD, murE, murF, murG, mraZ, rsmH, ftsL, mioC, ftsO | 0 | 18
+IclR | 4 | aceA, aceB, aceK, iclR | 0 | 4
+FadR | 23 | accD, fabA, fabB, accB, accC, fabH, fadA, fadB, fadL, fadR, iclR, fabD, fabG, uspA, fabI, fadD, accA, sroD, fadH, fadE, fadM, fadJ, fadI | 12 | 11
+HdfR | 6 | flhC, flhD, gltB, gltD, maoP, gltF | 4 | 2
+OmpR | 56 | bolA, cadA, cadB, cadC, fadL, flhC, flhD, htpX, lpp, malE, narV, narW, narY, narZ, nmpC, ompC, potE, speF, tolC, pdhR, tsgA, rob, sra, nuoN, feoA, feoB, acrR, ompX, rhtA, galP, narU, sstT, feoC, micF, speFL, omrA, omrB, ecnB, fadE, gmhA, copA, csgI, pgaD, pgaC, pgaB, pgaA, csgG, csgF, csgE, csgD, dtpA, yobB, exoX, znuA, queE, alx | 29 | 27
+GlaR | 120 | apt, aroB, aroP, cadC, cysN, cysS, fhuE, gabT, gdhA, zraR, kdsA, mglA, mrdA, murD, nlpA, pdxA, ppiB, priC, rhsD, rpsF, tar, pdhR, ttdA, yidB, gabD, gabP, ppx, inaA, yigG, gltF, smg, baeS, phoH, chaA, gcvA, rpiB, yihD, yihM, kdgT, tehA, dctR, htrE, yehD, yehE, yehS, rssB, idnK, hinT, gadW, gadX, yadN, lhgD, chaB, chaC, rfbB, prmC, yfjD, yfiL, sgcC, ttdR, ygjI, ybaN, dgcN, yjdP, dinQ, ldcC, elfC, ycbU, ycbV, csgI, yccU, bssS, pdeG, ycgJ, pliG, ycgY, ycgV, ychQ, yciU, ycjP, ynaE, ydcK, ydeO, safA, lsrG, tam, ydfI, ydfK, ydhS, ynjH, yeaE, yobD, yodB, yfbN, yfbO, hxpA, yfbU, yfcO, yfcV, yfdC, yfdV, oxc, ypdC, yfiR, ypjA, glaH, alaE, casA, yqhC, ygiV, ygiW, yhcD, rsgA, orn, yjfY, bdcA, bdcR, idnD, yjjP, yjjQ | 44 | 76
+HyfR | 12 | hyfA, hyfB, hyfC, hyfD, hyfE, hyfF, hyfG, hyfH, hyfI, hyfJ, hyfR, focB | 12 | 0
+RutR | 17 | carA, carB, fepB, gadW, gadX, rutR, rutG, rutF, rutE, rutD, rutC, rutB, rutA, pdeR, nemR, nemA, gloA | 2 | 15
+SutR | 7 | cysE, pfkB, fliA, fliZ, ypfN, ydcO, tcyJ | 1 | 6
+GlrR | 6 | rpoE, rseA, rseD, glmY, rseC, rseB | 6 | 0
+AppY | 10 | appA, hyaA, hyaB, hyaC, hyaD, hyaE, hyaF, appB, appC, appX | 10 | 0
+QseB | 13 | dnaA, fimA, fimC, fimD, fimF, fimG, fimH, flhC, flhD, fimI, qseC, fimR2, qseB | 12 | 1
+CRP | 538 | modB, dcuB, zraS, aceA, aceB, aceE, aceF, aceK, agp, aldA, puuC, ampD, ampE, ansB, araA, araB, araC, araD, araE, araF, araG, araH, argG, aroA, ascB, ascF, aspA, bglB, bglF, bglG, chbB, chbC, chbA, chbR, chbF, modC, cirA, cpdB, cstA, cyaA, cyoA, cyoB, cyoC, cyoD, cyoE, cysG, dksA, dsdA, dsdX, ebgA, ebgC, entA, entB, entC, entD, entE, entF, fadL, fbaA, fecA, fecB, fecC, fecD, fecE, fepA, flhC, flhD, fucA, fucI, fucK, fucO, fucP, fucR, fucU, fumA, fumB, fumC, fur, gabT, galS, gapA, epd, gcd, gcvH, gdhA, glgA, glgC, glgP, glpA, glpB, glpC, glpD, glpE, glpF, glpG, glpK, glpQ, glpR, glpT, gltA, gltB, gltD, grpE, guaA, guaB, gyrA, hflC, hflK, hflX, hfq, htpG, hupA, hupB, zraR, ilvB, ilvN, infB, rpoS, lacI, lamB, malE, malF, malG, malK, malM, malT, malX, malY, manX, manY, manZ, mazE, mdh, melA, melB, metK, mglA, mglB, mglC, mtlA, mtlD, nanA, nirB, nirC, nirD, nmpC, nrdA, nrdB, nusA, ompA, ompF, oxyR, pflB, pgk, pncB, pnp, priB, ptsG, purH, putP, rbsA, rbsB, rbsC, rbsD, rbsK, rbsR, relA, rhaR, rhaS, rplI, rplM, rpsF, rpsI, rpsO, rpsR, sdhA, sdhB, sdhC, sdhD, secB, serA, serC, sfsA, sodA, sodB, sohB, speC, srlE, srlB, srlD, gutM, gutQ, srlR, sucA, sucB, sucC, sucD, tdcA, tdcB, tdcC, tnaA, tnaB, trg, trxA, ugpA, ugpB, ugpC, ugpE, ugpQ, uhpT, uidA, uxaB, uxuA, xseA, xylA, xylB, xylE, pdhR, entH, cspD, ompW, ubiG, hyfA, raiA, ygeA, tdcD, truB, rbfA, rimP, psiE, dcuA, melR, mazF, focA, ivbL, tnaC, hyfB, preA, rhaT, malS, acnA, gabD, gabP, glgS, osmY, treC, marA, marR, gcvT, acs, narQ, gadB, gltF, glpX, fadD, ychH, gadE, nadC, caiD, caiC, caiB, caiA, caiT, fixA, fixB, fixC, fixX, marB, psuK, uidB, grcA, hofC, gcvP, puuB, rhaD, rhaA, rhaB, sbmC, rpoE, aphA, actP, yjcH, mtlR, nupC, yehA, yehB, yehC, yehD, psuG, efpL, hofB, ppdD, treB, nlpE, galP, idnK, cspE, chbG, mdtE, mdtF, gadX, xylG, xylH, plaR, yiaK, yiaL, yiaM, yiaN, yiaO, lyxK, sgbH, sgbU, sgbE, aldB, acnB, rseA, arfB, ybgD, yfaE, gntT, lhgD, aegA, gatA, gatB, gatC, gatD, gatY, modA, puuR, mpl, ulaB, ulaC, cycA, idnT, sgcA, sgcC, sgcX, gntP, caiE, gntK, gntU, cas3, uxaA, exuT, exuR, agaA, cas2, frlA, dctA, dgoA, dgoK, dgoT, gpsA, hpt, uxuB, uxuR, xylF, xylR, metY, spf, rmf, gadA, sgcB, hicA, yeiW, azuC, ykgR, gadF, rseD, sdhX, rbsZ, raiZ, malH, chiZ, aspX, uhpU, xylZ, azuR, spfP, csrC, cyaR, mcaS, sroD, fadH, yaeP, nanT, caiF, rof, yaeQ, yahN, prpR, prpB, prpC, prpD, prpE, mhpR, mhpE, sfmA, citG, citX, citF, citE, citD, citC, dpiB, dpiA, rihA, chiP, chiQ, b0725, fiu, elfA, csgG, csgF, csgE, csgD, comR, bhsA, hlyE, puuD, puuE, abgR, feaR, paaZ, paaA, paaB, paaC, paaD, paaE, paaF, paaG, paaH, paaI, paaJ, paaK, mokB, hicB, ortT, gadC, lsrK, lsrR, lsrA, lsrC, lsrD, lsrB, lsrF, lsrG, tam, rspB, rspA, bidA, uidC, gatZ, preT, yfcV, murQ, murP, hyfC, hyfD, hyfE, hyfF, hyfG, hyfH, hyfI, hyfJ, hyfR, focB, csiE, rseC, rseB, patZ, glaH, cas1, casE, casD, casC, casB, casA, ygcW, yqeF, ygeW, glcC, aer, tdcG, tdcF, tdcE, kbaZ, agaV, agaW, yraH, nanQ, nanK, nanE, aaeB, aaeA, aaeX, aaeR, frlB, frlC, frlD, frlR, hofP, hofO, hofN, hofM, yhgH, nfuA, dgoR, dcuR, ulaA, ulaD, ulaE, ulaF, ytfK, idnR, idnO, idnD, yjhG, yjhH, yjhI, sgcR, sgcE, sgcQ, nanS, nanM, nanC, btsT, lgoR, lgoD, feaB, uxaC, srlA, dgoD, mhpA, mhpB, mhpC, mhpD, mhpF | 446 | 92
+DksA | 158 | argI, dksA, dnaG, fabH, fadR, fimB, fis, mutM, fusA, ihfA, ihfB, hisA, hisB, hisC, hisD, hisF, hisG, hisH, hisI, hmp, infC, rpoS, livJ, pcnB, pheS, pheT, secY, recG, rplA, rplB, rplC, rplD, rplE, rplF, rplJ, rplK, rplL, rplM, rplN, rplO, rplP, rplQ, rplR, rplS, rplT, rplV, rplW, rplX, rplY, rpmB, rpmC, rpmD, rpmG, rpoA, rpoB, rpoC, rpoD, rpoZ, rpsA, rpsC, rpsD, rpsE, rpsG, rpsH, rpsI, rpsJ, rpsK, rpsL, rpsM, rpsN, rpsP, rpsQ, rpsS, rpsT, rpsU, spoT, trmH, thrA, thrB, thrC, thrS, trmD, tufA, rimM, rpmI, rpmJ, iraP, hisL, pheM, thrL, dusB, fabD, fabG, gluQ, folK, csrA, yhbE, thiQ, thiP, thiB, setA, talA, rpoE, sgrR, tktB, rseA, alaT, alaU, alaV, gltT, gltU, gltV, gltW, ileT, ileU, ileV, rrfA, rrfB, rrfC, rrfD, rrfE, rrfG, rrfH, rrlA, rrlB, rrlC, rrlD, rrlE, rrlG, rrlH, rrsA, rrsB, rrsC, rrsD, rrsE, rrsG, rrsH, rrfF, thrV, rplU, rpmA, sgrT, idlP, ytiC, ytiD, csrB, csrC, rybB, isrC, sroA, sgrS, hlyE, dsrA, flu, rseC, rseB, obgE, iraD | 41 | 117
+RbsR | 12 | add, purD, purH, rbsA, rbsB, rbsC, rbsD, rbsK, rbsR, dcd, udk, rbsZ | 3 | 9
+SrlR | 7 | srlE, srlB, srlD, gutM, gutQ, srlR, srlA | 0 | 7
+GlpR | 9 | glpA, glpB, glpC, glpD, glpF, glpK, glpQ, glpT, glpX | 0 | 9
+BirA | 5 | bioA, bioB, bioC, bioD, bioF | 0 | 5
+Cra | 109 | aceA, aceB, aceE, aceF, aceK, adhE, aroP, betA, betB, betI, betT, crp, cydA, cydB, cysG, eda, edd, eno, fbaA, fbp, fruA, fruK, gapA, epd, icd, lpd, metE, nirB, nirC, nirD, pck, pfkA, pgk, poxB, ppc, ppsA, pykF, tpiA, pdhR, ppsR, raiA, zwf, pdeL, acnA, ychE, treC, marA, marR, nikR, hypF, marB, setA, nuoM, nuoF, nikA, nikB, nikC, nikD, nikE, nuoA, nuoB, nuoC, nuoE, nuoG, nuoH, nuoI, nuoJ, nuoK, nuoL, nuoN, treB, gpmM, envC, yibQ, ssuB, nrdF, msrB, mpl, nrdE, sgrT, sgrS, prpB, prpC, prpD, prpE, ssuC, ssuD, ssuA, ssuE, csgG, csgF, csgE, csgD, fumD, yeaC, yeaD, tmaR, mdtA, fbaB, nrdH, nrdI, glcC, yhfS, yhfT, yhfU, php, yhfW, yhfX, fruB | 49 | 60
+NorR | 3 | norR, norW, norV | 2 | 1
+GadX | 30 | asnB, btuB, cadA, cadB, hns, rpoS, lon, murI, uspE, gadB, hdeD, gadE, amtB, dctR, slp, glnK, mdtE, mdtF, gadX, gadA, gadF, gadY, glsA, ybaT, gadC, ydeM, ydeN, ynfB, speG, dtpA | 23 | 7
+SoxS | 54 | aldA, cadA, dapD, lpxC, fldA, fumC, fur, lpxL, map, fpr, nfo, pgi, poxB, ptsG, rimK, sodA, soxS, tolC, ompW, ygiB, ygiC, zwf, nfsA, acnA, ribA, rob, glnD, inaA, waaY, waaZ, marA, marR, marB, nepI, acrA, acrB, pbpG, mdaB, fldB, ybjC, micF, nfsB, uof, decR, acrZ, ybjN, pqiA, pqiB, pqiC, ompN, ydbK, zinT, yhbW, yrbL | 50 | 4
+CRP-Sxy | 1 | sxy | 1 | 0
+YfeC | 6 | rpmB, rpmH, rpsU, yfeC, hybE, ygdR | 1 | 5
+DicD | 3 | dicA, dicB, dicC | 0 | 3
+LldR | 8 | fadL, gadW, gadY, fadE, yfdY, lpxP, glcD, yhcO | 8 | 0
+AsnC | 4 | asnA, asnC, mnmG, mioC | 1 | 3
+LysR | 2 | lysA, lysR | 1 | 1
+AscG | 5 | ascB, ascF, htpG, prpR, ybiT | 0 | 5
+DpiA | 11 | appY, mdh, exuT, citG, citX, citF, citE, citD, citC, dpiB, dpiA | 10 | 1
+Nac | 529 | ispB, aceB, ackA, amn, ampD, cysQ, ansB, araE, araF, aroD, aroE, aroF, asnA, asnC, bfr, bglB, bisC, cheA, moeA, cpdB, cynT, cysJ, cysS, dapB, dcm, dcp, ddlA, deoR, dld, dnaA, acrE, fepE, fliC, fucA, gabT, gdhA, mnmG, glpK, gltA, gltB, gltD, gltP, gor, hemB, hemH, hfq, htpG, htpX, hupA, icd, ilvN, infA, intD, katG, kbl, kdsA, lepA, lepB, leuO, livH, livK, livM, lrp, lysA, lysR, lysU, malI, malY, map, mcrB, metE, metR, mglA, mglB, groS, mreC, narK, narX, nusA, nusB, ompA, ompR, ompT, oppA, oppC, osmB, pfkB, phoB, pstS, pldA, pntA, pntB, polA, ppc, ppiB, pstC, ptrA, pyrB, rcsA, rep, rfaH, fliD, rpmH, rpoZ, sdaA, sdhA, sdhB, sdhC, sdhD, sdiA, serA, gmk, srlR, tdcA, tdcR, thrS, tnaA, tnaB, tolB, trxB, uhpA, sbcD, yajD, ybgC, uvrY, xapR, ppdC, ygdB, argO, yhaB, rimP, mscL, bfd, mioC, ydiB, pdeL, ycaC, ycaD, chpS, ychA, iraP, yifB, ilvL, tnaC, pyrL, leuL, wzzE, dsbA, codA, codB, gabD, gabP, ligB, lysP, waaG, mdtG, gspO, amiB, bglH, ubiA, ahpC, uspA, osmY, dadA, glnD, cynR, msrA, marR, gcvT, yigI, yigL, pabC, holE, yhcA, ycgB, ybfC, cfa, ibpA, wrbA, gadE, nadC, greB, moaB, ygiF, evgA, eptA, eamA, ydeE, yafC, moaC, yadC, yicJ, nudC, yidQ, yieE, yieH, cbrB, cbrC, yieP, phoH, rsd, nfrB, ybbC, gmd, fcl, cmtB, cmtA, rlmM, hofC, torA, mobA, yihD, hemN, yihL, yihO, yihQ, yiiE, yiiF, fdoG, fdhD, yijO, yjaH, yjbB, yjbQ, yjcB, pdeC, yjcF, nrfF, nrfG, yjcO, htrE, rfbC, yehE, bglX, yeiH, yejB, yejG, lapC, ccmH, ccmB, ccmA, napC, napB, secG, yeiE, prfC, rhtA, nlpE, yaeF, cobT, gspM, ygaC, cspC, waaF, yhhQ, yhiJ, mdtF, gadX, yhjD, yhjE, yiaD, wecH, yadM, cdaR, yfaE, ygiL, ppnN, yecD, yecE, glaR, ybgE, iaaA, rfbB, tomB, ygiM, yfiL, prmB, yjeM, cycA, ybaL, ygiN, lpxH, ycaK, ygjI, exuT, kbaY, yecF, pitB, cobU, argU, asnT, asnV, leuU, metY, selC, spf, rplU, yohO, yciZ, sibE, shoB, ecnA, sibA, mgtS, tff, micC, yoeB, ecnB, torI, caiF, yafV, ivy, dpaA, yafQ, dinJ, yafN, yafO, yagU, ykgL, ykgE, ykgH, yaiS, tauA, yaiY, yaiZ, thiL, yajO, allR, allW, glxK, ybcK, ybcV, dsbG, uspG, ybdR, nadD, ybeQ, ybeR, ybeT, ybeU, ybhD, ybhH, ybhI, ybhM, mcbA, rlmF, ybjP, ybjX, macA, ycaN, ssuE, elfA, elfG, yccM, rutB, pgaA, dgcT, bssS, rluE, ycgX, ycgJ, dhaK, dhaR, ycgV, ymjA, abgA, abgR, ydaT, ydaU, ynaK, stfR, tfaR, pinR, ompN, ydcI, ydcS, ydcT, ydcU, ydcV, patD, ortT, ydcY, ydcZ, curA, ansP, ddpC, ydeP, ydeQ, yneK, ydfK, pinQ, tfaQ, ydfR, ynfA, ynfB, ynfD, ynfE, ynfF, ynfG, bidA, ydgH, fumD, ydiL, ydiM, ydiO, ydiP, rflP, ydiY, yniB, hxpB, cho, ynjF, nudG, ynjH, yobF, kdgR, yebQ, rsmF, yobB, znuA, uspC, ftnB, dcyD, yedL, hchA, hprR, mtfA, shiA, nac, yeeZ, ugd, wcaF, wcaE, wzc, wzb, wza, yegH, yegL, yegR, yfbK, yfbL, yfbV, yfcO, yfcP, emrK, yfdE, yfdV, alaC, mntH, pdxK, yfeK, yfeS, eutS, pdeF, yfgG, yfgH, csiE, hcaR, yfhL, yfiR, yfjI, abpA, rnlB, ileY, ygaV, ygaP, ygaM, ygaZ, pphB, ispD, queD, ygcO, ygcP, ygcS, ygcE, gudX, queF, ygdR, kduI, yqeH, yqeJ, yqeK, ygeG, xdhA, yqeB, scpB, srsR, yggP, yghG, glcA, yghS, yghT, dkgA, ygiZ, ygjH, yhaI, yraH, ubiT, ubiU, yhbX, yhcC, yhcD, nanK, yhdV, gspG, gspH, yhfL, yhfZ, yhhZ, yrhB, insK, yjeH, yjeJ, blc, yjfZ, ytfB, fklB, ytfJ, ytfK, ytfP, yjgH, yjgM, yjgN, yjhI, fhuF, feaB, nrdG, uxaC, hcaE | 162 | 367
+IscR | 33 | hyaA, hyaB, hyaC, hyaD, hyaE, hyaF, sufA, napC, napB, napH, napG, napA, napF, iscA, napD, erpA, nrdF, nrdE, torT, sufE, sufS, sufD, sufC, sufB, selO, iscU, iscS, iscR, rnlA, rnlB, nrdH, nrdI, nfuA | 11 | 22
+YgbI | 2 | ygbJ, ygbK | 0 | 2
+RacR | 6 | ydaS, ydaT, ydaU, ydaV, ydaW, rzpR | 0 | 6
+CusR | 14 | cyoA, cyoB, cyoC, cyoD, cyoE, cusA, cusS, cusR, cusC, cusF, cusB, hiuH, msrP, msrQ | 14 | 0
+MalI | 3 | malI, malX, malY | 0 | 3
+Lrp | 310 | cydC, aceB, alaS, arcB, argA, argS, argT, asnA, asnB, aspC, aspS, atpA, atpH, btuE, cadA, cadB, clpP, cysB, deaD, dedA, deoB, eco, eno, exbB, fadL, fimA, fimC, fimD, fimE, fimF, fimG, fimH, frdA, frdB, ftsQ, fumA, gabT, gcvH, gdhA, glgC, glnA, glnH, glnL, glnQ, gltB, gltD, gltP, gpt, lpxL, ilvA, ilvD, ilvE, ilvM, livF, livG, livH, livM, lrp, lysU, malT, manA, metH, metK, groS, msbA, mtr, mutY, nusB, ompC, ompT, oppA, oppB, oppC, oppD, oppF, pabB, pal, pepD, phoA, pncB, pntA, polA, ppsA, pyrI, relA, rplF, rpoN, rpsH, sdaA, serB, serS, ytjB, prlF, soxS, sulA, tdh, topA, treA, trxB, ybgA, trhO, yceB, yfiB, fau, argO, mscS, yhhA, rdcA, creA, uspE, iraP, thrL, leuL, lipA, ribE, gabD, gabP, upp, ychE, mnmA, ubiA, osmY, hdeA, hdeB, yhiD, dadX, sthA, rpiA, wecB, rhtB, gadB, rlmE, ppk, gltF, ibpA, ibpB, stpA, thiC, proP, ydeE, dgcZ, slyX, hpf, ptsN, yicH, emrD, phoH, rsd, yebF, purT, gcvP, aidB, rpiB, yiiM, menA, yjbJ, pspG, aphA, yjbQ, yjbR, yibL, zntR, yhdN, htrE, fimI, yehL, yeiL, radD, napF, mqo, yojI, nuoA, lrhA, sdaC, brnQ, glnK, chbG, yhiM, dtpB, yhjE, bipP, yhjR, eptB, can, rseA, lhgD, ybiI, ybiJ, modA, ycfJ, yjeM, cycA, yacL, yabQ, yiaG, sstT, yhbY, yhdW, cpoB, yciN, alaT, alaU, alaV, gltT, gltU, gltV, gltW, ileT, ileU, ileV, metT, micF, rrfA, rrfB, rrfC, rrfD, rrfE, rrfG, rrfH, rrlA, rrlB, rrlC, rrlD, rrlE, rrlG, rrlH, rrsA, rrsB, rrsC, rrsD, rrsE, rrsG, rrsH, rrfF, ssrS, thrV, yibT, yciZ, ilvX, yoeG, fimR2, gadY, sroH, ldhA, yaaX, yaeQ, yagU, ykgE, yaiY, mscK, borD, ybdG, ybdF, ybdL, insH3, ybeX, zitB, pgl, ybiO, ybiT, ybjN, ybjS, ybjX, clpS, lolA, ycaM, hspQ, bssS, lolC, hlyE, dhaK, yciT, ydcK, ydcL, ydeN, sad, ydgH, dtpA, ydhQ, ynjH, yeaE, yeaG, dgcJ, leuE, yoaH, dgcQ, yodC, cbl, nac, yfaP, yfcC, yfcZ, zipA, intZ, glaH, amiC, yqeF, yqeG, qseB, insC5, aer, yhcN, yhdV, yzgL, yjeH, yjfP, ytfK, yjiC, iraD, ilvG | 130 | 180
+BaeR | 9 | acrD, ycaC, baeS, baeR, mdtD, spy, mdtA, mdtB, mdtC | 9 | 0
+FrlR | 5 | frlA, frlB, frlC, frlD, frlR | 0 | 5
+YgaV | 4 | cirA, fhuE, nfeF, fhuF | 4 | 0
+GalS | 6 | galR, galS, mglA, mglB, mglC, galP | 0 | 6
+ExuR | 10 | uxaB, uxuA, uxaA, exuT, exuR, uxuB, uxuR, lgoR, lgoD, uxaC | 0 | 10
+TrpR | 12 | aroH, aroL, aroM, mtr, trpA, trpB, trpC, trpD, trpE, trpR, yaiA, trpL | 0 | 12
+EnvR | 2 | acrA, acrB | 0 | 2
+HprR | 14 | cyoA, cyoB, cyoC, cyoD, cyoE, cusA, cusS, cusR, cusC, cusF, cusB, hiuH, msrP, msrQ | 9 | 5
+XapR | 2 | xapB, xapA | 2 | 0
+YhaJ | 8 | ygiD, ybiJ, bssS, yqjF, yhaJ, yhaK, yhaL, yhhW | 8 | 0
+HU | 9 | galE, galK, galT, mtr, tyrP, galM, pgm, seqA, micF | 1 | 8
+RhaR | 2 | rhaR, rhaS | 2 | 0
+DgoR | 5 | dgoA, dgoK, dgoT, dgoR, dgoD | 0 | 5
+DcuR | 13 | dcuB, aspA, frdA, frdB, frdC, frdD, fumB, pck, dcuA, dctA, aspX, dpiB, dpiA | 13 | 0
+ZntR | 2 | rsd, rmf | 0 | 2
+Rob | 52 | aldA, aslB, dapD, fadA, fadB, fadL, fumC, lpxL, map, narG, nfo, rimK, sodA, tolC, ygiB, ygiC, zwf, nfsA, acnA, rob, mltF, glgS, glnD, inaA, waaY, waaZ, marA, marR, acs, fadD, marB, acrA, acrB, actP, yjcH, mdtD, yacH, chaC, yiaG, mdaB, ybjC, micF, nfsB, acrZ, ldtB, ybiT, ybjN, ydcL, astC, elaB, yhbO, yhbW | 40 | 12
+XylR | 9 | araC, xylA, xylB, xylE, xylG, xylH, xylF, xylR, xylZ | 8 | 1
+GadE | 34 | cyoA, cyoB, cyoC, cyoD, cyoE, lpxD, fliC, gltB, gltD, gnd, skp, lpxA, lrp, purA, rcsA, fabZ, hdeA, hdeB, yhiD, gadB, hdeD, gltF, gadE, yjbQ, yjbR, yhiM, mdtE, mdtF, gadW, gadX, gadF, gndA, fliX, gadC | 34 | 0
+Fur | 269 | garL, adk, ansB, araB, araF, argF, argG, argR, aspC, bfr, cadC, cirA, cyoA, cyoB, cyoC, cyoD, cyoE, dapB, dmsA, dmsB, dmsC, entA, entB, entC, entD, entE, entF, exbB, exbD, fecA, fecB, fecC, fecD, fecE, fecI, fecR, fepA, fepB, fepC, fepD, fepE, fepG, fes, fhuA, fhuB, fhuC, fhuD, fhuE, flhC, flhD, fnr, fumB, fumC, fur, glnG, glnL, glpF, glpK, gltB, gltD, gnd, hmp, katE, rpoS, katG, manX, manY, manZ, map, mdh, metH, metJ, mglB, ndh, nth, ompF, oppA, oppB, oppC, oppD, pstB, purL, purR, pyrC, recN, rimK, ftnA, sdiA, serS, sodA, soxR, soxS, sucA, sucB, sucC, sucD, sulA, tsx, udp, ugpA, ugpB, ugpE, uxaB, uxuA, entH, ompW, garK, garR, bfd, zwf, acnA, lysP, gspO, sufA, glnD, waaL, narQ, rmuC, qorA, gltF, flgL, leuD, moaA, sseB, yciI, nohA, eamA, gpmA, mdtL, phoH, efeB, rsd, yddA, yddB, grcA, yihN, yihX, zapB, pepE, yjbJ, actP, yjcH, yejG, mqo, yojI, feoA, feoB, ydcF, hscA, punC, narU, gspM, ygaC, yhjE, erpA, tcyN, nrdF, ydiE, dppB, dppC, dppD, dppF, grxB, garP, ybaN, feoC, uxuB, nrdE, rnpB, rmf, ybdZ, yjjZ, mntS, esrE, gndA, sdhX, ryhB, tisB, dinB, xynR, tauA, tauB, tauC, cusC, b0725, ybiX, fiu, ybiU, rimO, bssR, efeU, efeO, ycgR, paaA, paaB, paaC, paaD, paaE, paaF, paaG, paaH, paaI, paaJ, paaK, ortT, pqqU, yncE, adhP, ydeN, tfaQ, stfQ, ynfD, tqsA, rsxA, rsxB, rsxC, rsxD, rsxG, rsxE, sufE, sufS, sufD, sufC, sufB, selO, yobD, mntP, ftnB, zinT, nac, yoeA, rcnA, rcnB, yfcV, mntH, maeB, pdeF, hcaR, nrdH, nrdI, yqeB, yqeC, mocA, yghF, hybO, yghW, gpr, yqhD, dkgA, nfeF, nfeR, yrbL, yhcC, gspC, gspD, gspE, gspF, gspG, gspH, gspI, gspJ, gspK, gspL, yhhY, yjiR, yjiT, bglJ, fhuF, uxaC | 77 | 192
+MntR | 5 | dps, mntS, rybA, mntP, mntH | 1 | 4
+PepA | 3 | carA, carB, pepA | 0 | 3
+SoxR | 8 | aroF, fumC, sodA, soxR, soxS, tyrA, yjcB, yrbL | 7 | 1
+ArcA | 226 | dcuB, cydC, aceA, aceB, aceE, aceF, aceK, ackA, aldA, puuC, appA, appY, arcA, argR, argT, betA, betB, betI, betT, cadA, cadB, carA, moeA, moeB, cydA, cydB, cyoA, cyoB, cyoC, cyoD, cyoE, dppA, fadA, fadB, fadL, fnr, fumA, fumB, fumC, glpA, glpB, glpC, glpD, glpE, gltA, hemA, hyaA, hyaB, hyaC, hyaD, hyaE, hyaF, icd, rpoS, kdpA, kgtP, lpd, manA, mdh, ndh, ndk, oppB, oppC, oppD, oppF, pepN, pflB, pldA, pncB, pntA, prfA, ptsG, putA, putP, rho, rplB, rplC, rplD, rplP, rplV, rplW, rpmC, rpsC, rpsJ, rpsQ, rpsS, sodA, ssb, thrA, uvrA, xthA, ompW, dcuA, rhaT, acnA, ubiC, ubiA, folE, appB, appC, osmY, dsbB, treC, cydD, sthA, yigI, ybfA, fadD, gadE, caiD, caiC, caiB, caiA, caiT, thiC, potF, ydeA, yieE, phoH, rsd, nuoM, nuoF, grcA, yfiF, hybA, hybB, hybC, hybD, hybE, hybF, hybG, puuB, lldP, lldR, lldD, nupC, yeiQ, yejG, mqo, nuoA, nuoB, nuoC, nuoE, nuoG, nuoH, nuoI, nuoJ, nuoK, nuoL, nuoN, feoA, treB, gadX, yhjE, acnB, msrB, gatA, gatB, gatC, gatD, gatY, prmC, puuR, cycA, caiE, sstT, dctA, glcB, xylR, micF, acpP, rmf, gadA, appX, gadF, ymjE, glcF, gcvB, arcZ, sroD, fadH, fadE, ybdN, citG, citX, citF, citE, citD, citC, dpiB, dpiA, dcuC, ybiU, rutG, rutF, rutE, rutD, rutC, rutB, rutA, iraM, puuP, puuA, puuD, puuE, tpx, ynaJ, pqqU, yncE, ydgC, rstA, gatZ, fadJ, fadI, pyrS, glaH, glcA, glcG, glcE, glcD, glcC, hybO, nudE, igaA, yhgE, yjiR | 72 | 154
+PhoB | 60 | agp, amn, eda, cra, argP, ompF, phnC, phnD, phnF, phnG, phnH, phnI, phnJ, phnK, phnL, phnM, phnN, phnO, phnP, phoA, phoB, phoE, phoQ, phoR, pstS, phoU, pstA, pstB, pstC, sbcC, sbcD, psiE, waaH, phnE1, psiF, phoH, tktB, gadW, gadX, rcdB, cusA, adiC, pitB, yibT, prpR, cusS, cusR, cusC, cusF, cusB, feaR, rspR, asr, mipA, yoaI, hiuH, msrP, msrQ, yegH, ytfK | 52 | 8
+AlpA | 3 | phoB, phoR, intA | 1 | 2
+PgrR | 9 | tyrR, ycjF, ymjC, ymjD, ycjX, ycjG, mpaA, ycjY, mppA | 0 | 9
+PlaR | 14 | eda, glpA, glpT, plaR, yiaK, yiaL, yiaM, yiaN, yiaO, lyxK, sgbH, sgbU, sgbE, ygjV | 0 | 14
+BasR | 26 | dgkA, fimB, glpA, glpB, glpC, hha, putA, waaH, eptA, emrD, tomB, qseC, arnE, csgG, csgF, csgE, csgD, cspI, arnB, arnC, arnA, arnD, arnT, arnF, qseB, yrbL | 24 | 2
+YeiE | 15 | cysJ, infA, pflB, putA, argO, gltF, ftp, mdtF, yibQ, dcuC, ssuA, uspF, ydcT, sodC, yoaC | 4 | 11
+IHF | 207 | aceA, aceB, aceK, osmE, cysH, cysI, cysJ, dmsA, dmsB, dmsC, dppA, envZ, fhlA, fimA, fimB, fimC, fimD, fimF, fimG, fimH, fis, flhC, flhD, fnr, folA, gcd, glnH, glnP, glnQ, glpQ, glpT, gltA, gltB, gltD, hemA, ihfA, ihfB, hipB, hipA, hycA, hycB, hycC, hycD, hycE, hycF, hycG, hycH, hypA, hypB, hypC, hypD, hypE, icd, mtr, narG, narH, narI, narJ, narK, ndh, nmpC, ompC, ompR, pflB, pstS, phoU, prfA, proV, proW, proX, pspA, pspB, pspC, pspD, pspE, pstA, pstB, pstC, rpoH, sodA, sodB, sucA, sucB, sucC, sucD, tdcA, tdcB, tdcC, tyrP, tdcD, focA, dusB, fliA, fliZ, ubiC, ubiA, sufA, uspA, osmY, dps, acs, adiA, sra, gltF, ibpB, atoD, atoA, atoE, atoB, nuoM, nuoF, amiA, rpoE, yjbE, yjbF, yjbG, yjbH, pspG, actP, yjcH, htrE, yadV, fimI, yeiL, nuoA, nuoB, nuoC, nuoE, nuoG, nuoH, nuoI, nuoJ, nuoK, nuoL, nuoN, hemF, uspB, plaR, yiaK, yiaL, yiaM, yiaN, yiaO, lyxK, sgbH, sgbU, sgbE, rseA, prmC, ulaB, ulaC, cycA, dppB, dppC, dppD, dppF, glcB, hpt, micF, rseD, pspH, sdhX, narS, fimR2, glcF, csrB, glmY, csgG, csgF, csgE, csgD, paaZ, paaA, paaB, paaC, paaD, paaE, paaF, paaG, paaH, paaI, paaJ, paaK, sufE, sufS, sufD, sufC, sufB, tcyJ, rseC, rseB, hycI, glcA, glcG, glcE, glcD, tdcG, tdcF, tdcE, dcuD, rtcA, rtcB, ulaG, ulaA, ulaD, ulaE, ulaF | 142 | 65
+KdgR | 2 | eda, edd | 0 | 2
+NikR | 6 | nikR, nikA, nikB, nikC, nikD, nikE | 0 | 6
+Dan | 4 | ttdA, ttdB, ttdT, ttdR | 4 | 0
+MqsA | 13 | rpoS, cspD, ypjJ, csgG, csgF, csgE, csgD, lfgA, lfgB, yfjZ, ypjF, mqsA, mqsR | 0 | 13
+EbgR | 2 | ebgA, ebgC | 0 | 2
+PtrR | 13 | puuC, gabD, gadB, acrA, acrB, puuB, acrR, gadA, puuA, puuE, yneG, glsB, sad | 6 | 7
+AccB | 2 | accB, accC | 0 | 2
+DhaR | 4 | dhaM, dhaL, dhaK, dhaR | 3 | 1
+Cbl | 9 | ssuB, tauD, tauA, tauB, tauC, ssuC, ssuD, ssuA, ssuE | 9 | 0
+PurR | 32 | carA, carB, cvpA, gcvH, glnB, glyA, guaA, guaB, prs, purA, purC, purD, purE, purF, purH, purK, purL, purM, purN, purR, pyrC, pyrD, speA, speB, ubiX, purB, codA, codB, hflD, gcvT, purT, gcvP | 0 | 32
+RelB | 3 | relB, hokD, relE | 0 | 3
+DnaA | 12 | aldA, guaA, guaB, polA, recN, rpoH, uvrB, yjeV, idlP, ytiC, ytiD, iraD | 1 | 11
+RcsB-BglJ | 16 | bglB, bglF, bglG, leuO, sfsB, yidL, yehF, ykiA, ynbA, ynbB, ynbC, ynbD, ynjI, yecT, yqhG, ygiZ | 16 | 0
+AcrR | 15 | flhC, flhD, soxR, soxS, marA, marR, marB, acrA, acrB, acrR, micF, mdtU, puuA, mdtI, mdtJ | 0 | 15
+YdfH | 2 | rspB, rspA | 0 | 2
+YdiP | 2 | cspA, cspE | 2 | 0
+YdeO | 24 | appA, hyaA, hyaB, hyaC, hyaD, hyaE, hyaF, nhaR, appB, appC, gadB, adiA, gadE, yiiS, uspD, dctR, slp, mdtE, mdtF, gadW, appX, gadF, ydeO, safA | 21 | 3
+HigA | 2 | higA, higB | 0 | 2
+UhpA | 2 | uhpT, uhpU | 2 | 0
+FNR | 310 | dcuB, cydC, garL, ackA, adhE, aldA, ansB, aroP, aspA, cadC, cheB, cheR, cheY, cheZ, moeA, moeB, cyoA, cyoB, cyoC, cyoD, cyoE, cysG, dmsA, dmsB, dmsC, dppA, entF, acrE, acrF, fdhF, fepE, fes, fhlA, frdA, frdB, frdC, frdD, fumA, fumB, fumC, gcvH, gdhA, glpA, glpB, glpC, glpQ, glpT, gltB, gltD, gnd, hemA, hmp, hypB, hypC, hypD, hypE, katG, malP, malQ, narG, narH, narI, narJ, narK, narL, narX, ndh, nirB, nirC, nirD, pflB, pstS, phoU, poxB, prfA, pstA, pstB, pstC, purM, purN, pykA, rplB, rplC, rplD, rplM, rplP, rplS, rplT, rplV, rplW, rpmC, rpsC, rpsI, rpsJ, rpsP, rpsQ, rpsS, sdhA, sdhB, sdhC, sdhD, sodA, soxR, soxS, sucA, sucB, sucC, sucD, tap, tar, tdcA, tdcB, tdcC, thrA, trmD, ung, hyfA, rimM, tdcD, garK, garR, zwf, dcuA, ycaC, focA, pheM, hyfB, ygbA, acnA, upp, ubiC, ubiA, cydD, nrdD, gcvT, scpA, argK, gltF, nikR, pepT, caiD, caiC, caiB, caiA, caiT, fixA, fixB, fixC, fixX, moaA, moaB, moaD, moaE, ydeJ, moaC, viaA, ravA, nuoM, nuoF, nrfA, gcvP, nrfB, nrfC, nrfD, nrfE, nrfF, nrfG, yeiL, ccmH, ccmG, ccmF, ccmE, ccmC, ccmB, ccmA, napC, napB, napH, napG, napA, napF, nikA, nikB, nikC, nikD, nikE, nuoA, nuoB, nuoC, nuoE, nuoG, nuoH, nuoI, nuoJ, nuoK, nuoL, nuoN, feoA, feoB, ompX, uraA, napD, ccmD, pitA, gadW, gadX, ccp, bcsZ, bcsB, yibN, ssuB, msrB, ychO, prmC, norW, garD, caiE, dppB, dppC, dppD, dppF, uxaA, garP, feoC, emrY, metV, rnpB, gadA, ybdZ, fnrS, idlP, gndA, ymjE, sdhX, narS, aspX, caiF, ybdN, citG, citX, citF, citE, citD, citC, dpiB, dpiA, dcuC, b0725, hcr, hcp, ssuC, ssuD, ssuA, ssuE, iraM, hlyE, puuP, puuA, tpx, ortT, ydfZ, ydfO, ynfE, ynfF, ynfG, ynfH, dmsD, bidA, ydhT, ydhU, ydhX, ydhW, ydhV, ydhY, yecR, nac, yfcZ, emrK, yffS, hyfC, hyfD, hyfE, hyfF, hyfG, hyfH, hyfI, hyfJ, hyfR, focB, pdeF, norV, mltA, xdhA, xdhB, xdhC, scpB, scpC, nfeR, aer, tdcG, tdcF, tdcE, ysgA, dcuR, dcuS, ytfE, iraD, nrdG, uxaC, gapC | 204 | 106
+RelBE | 3 | relB, hokD, relE | 0 | 3
+AllS | 3 | allE, allC, allD | 3 | 0
+MetR | 4 | hmp, metE, metH, metR | 3 | 1
+GadRcs | 9 | aslB, cadA, cadB, dctR, slp, yhiM, gadX, adiC, gadA | 9 | 0
+FimZ | 5 | puuC, puuB, sfmA, sfmC, puuD | 5 | 0
+MhpR | 6 | mhpE, mhpA, mhpB, mhpC, mhpD, mhpF | 6 | 0
+FucR | 7 | fucA, fucI, fucK, fucO, fucP, fucR, fucU | 7 | 0
+YefMB | 2 | yefM, yoeB | 0 | 2
+CynR | 4 | cynS, cynT, cynX, cynR | 3 | 1
+CueR | 9 | moaA, moaB, moaD, moaE, moaC, rsd, cueO, rmf, copA | 2 | 7
+NagC | 33 | chbB, chbC, chbA, chbR, chbF, creD, crr, fimB, manX, manY, manZ, nagA, nagB, umpH, nagE, nagC, creC, ptsH, ptsI, creA, creB, galP, chbG, chiZ, chiP, chiQ, dinI, ydeM, ydeN, ydeP, nanS, nanM, nanC | 1 | 32
+DicA | 9 | dicA, dicB, dicC, ydfD, ydfE, ydfW, ydfX, insD7, intQ | 1 | 8
+RcsAB | 16 | flhC, flhD, rcsA, yjbE, yjbF, yjbG, yjbH, csgG, csgF, csgE, csgD, wcaB, wcaA, wzc, wzb, wza | 10 | 6
+AtoC | 4 | atoD, atoA, atoE, atoB | 4 | 0
+AllR | 9 | gcl, allS, allA, hyi, glxR, allW, allB, ybbY, glxK | 0 | 9
+RpoN | 6 | fadL, mutM, nth, cspC, yobF, yfcZ | 0 | 6
+BtsR | 15 | aceE, aceF, lpd, mdh, pdhR, csgA, cspC, csgG, csgF, csgE, csgD, csgB, csgC, yobF, btsT | 1 | 14
+FliZ | 22 | flhC, flhD, osmY, hdeA, hdeB, yhiD, csgA, gadB, gadE, yjbJ, mlrA, mdtE, mdtF, gadF, csgG, csgF, csgE, csgD, csgB, csgC, pdeR, gadC | 0 | 22
+TdcR | 7 | tdcA, tdcB, tdcC, tdcD, tdcG, tdcF, tdcE | 7 | 0
+LeuO | 23 | bglB, bglF, bglG, cadC, leuA, leuL, gltF, leuD, leuC, leuB, cas2, ybeQ, dsrA, cas1, casE, casD, casC, casB, casA, yghR, yghS, yjjQ, bglJ | 17 | 6
+CecR | 6 | rhlE, cecR, ybhR, ybhS, ybhF, ybhG | 1 | 5
+RcdA | 14 | sulA, ydeI, rsd, rmf, yagK, ybjI, ybjJ, rcdA, csgG, csgF, csgE, csgD, bluF, asr | 10 | 4
+SlyA | 48 | fecI, fecR, leuO, gspO, rsd, gspM, pagP, sgcA, sgcC, sgcX, mdtM, cas2, rmf, sgcB, elfA, hlyE, paaA, paaB, paaC, paaD, paaE, paaF, paaG, paaH, paaI, paaJ, paaK, slyA, cas1, casE, casD, casC, casB, casA, gspC, gspD, gspE, gspF, gspG, gspH, gspI, gspJ, gspK, gspL, sgcR, sgcE, sgcQ, yjiN | 39 | 9
+YcjW | 12 | ymjB, ycjM, ycjN, ycjO, ycjP, ycjQ, ycjR, ycjS, ycjT, ycjU, ycjV, ompG | 0 | 12
+YciT | 4 | rdcA, cusF, ybiY, bsmA | 2 | 2
+LsrR | 9 | lsrK, lsrR, lsrA, lsrC, lsrD, lsrB, lsrF, lsrG, tam | 0 | 9
+NrdR | 9 | nrdA, nrdB, nrdD, yfaE, nrdF, nrdE, nrdH, nrdI, nrdG | 0 | 9
+OxyR | 44 | fur, gor, grxA, hemH, katG, metE, metR, oxyR, poxB, rimK, uxuA, xthA, nfsA, sufA, ahpC, ahpF, ychF, dps, trxC, hemF, ccp, znuB, gntP, ybjC, uxuB, oxyS, yjjZ, uof, isrC, dsbG, ybjN, hcr, hcp, sufE, sufS, sufD, sufC, sufB, znuA, znuC, zinT, flu, mntH, fhuF | 32 | 12
+ModE | 46 | modB, modC, deoA, deoB, deoC, deoD, dmsA, dmsB, dmsC, hycA, hycB, hycC, hycD, hycE, hycF, hycG, hycH, narL, narX, oppA, oppB, oppC, oppD, oppF, moaA, moaB, moaD, moaE, moaC, ccmH, ccmG, ccmF, ccmE, ccmC, ccmB, ccmA, napC, napB, napH, napG, napA, napF, napD, ccmD, modA, hycI | 31 | 15
+Fis | 242 | adhE, osmE, ansB, apaG, apaH, bglB, bglF, bglG, carA, carB, crp, cspA, cyoA, cyoB, cyoC, cyoD, cyoE, cysG, deoA, deoB, deoC, deoD, dmsA, dmsB, dmsC, dnaA, dnaN, fadA, fadB, fimA, fimC, fimD, fimF, fimG, fimH, fis, fumB, glnA, glnG, glnL, glnQ, glpA, glpB, glpC, glpQ, glpT, gltX, guaA, guaB, gyrA, gyrB, hns, hupA, hupB, hyaA, hyaB, hyaC, hyaD, hyaE, hyaF, infB, katE, rsmA, lpd, malE, malF, malG, mazE, mazG, mglA, mglC, mtlA, mtlD, nanA, narG, narH, narI, narJ, narK, nirB, nirC, nirD, nrdA, nrdB, nusA, ogt, pdxA, pflB, pnp, pyrD, queA, recF, rplM, rpsI, rpsO, tolB, tpr, trg, trmA, tufB, truB, rbfA, rimP, mazF, dusB, osmY, dps, msrA, marA, marR, acs, gadB, sra, marB, proP, nuoM, nuoF, nrfA, grcA, actP, yjcH, nrfB, nrfC, nrfD, nrfE, nrfF, nrfG, mtlR, fimI, nuoA, nuoB, nuoC, nuoE, nuoG, nuoH, nuoI, nuoJ, nuoK, nuoL, nuoN, cbpA, cbpM, gadX, xylG, xylH, aldB, acnB, yfaE, xylF, xylR, alaT, alaU, alaV, alaW, alaX, argU, argW, argX, aspV, glnU, glnV, glnW, glnX, gltT, gltU, gltV, gltW, glyT, glyU, hisR, ileT, ileU, ileV, leuP, leuQ, leuT, leuV, leuW, leuX, lysT, lysV, lysW, metT, metU, metY, pheU, pheV, proK, proL, proM, rrfA, rrfB, rrfC, rrfD, rrfE, rrfG, rrfH, rrlA, rrlB, rrlC, rrlD, rrlE, rrlG, rrlH, rrsA, rrsB, rrsC, rrsD, rrsE, rrsG, rrsH, rrfF, serT, serX, thrT, thrU, thrV, thrW, tyrT, tyrU, tyrV, valT, valU, valX, valY, gadA, malH, narS, fimR2, glnZ, nanT, hlyE, gadC, cspI, flxA, yoaG, yeaR, yodD, glcC, nanQ, nanK, nanE | 157 | 85
+PutA | 2 | putA, putP | 0 | 2
+BolA | 9 | fimH, mreB, mreC, mreD, csgA, csgG, csgF, csgE, csgD | 6 | 3
+UlaR | 7 | ulaB, ulaC, ulaG, ulaA, ulaD, ulaE, ulaF | 0 | 7
+SdiA | 7 | ftsA, ftsZ, rsd, gadW, rmf, gadY, rflP | 5 | 2
+GatR | 6 | gatA, gatB, gatC, gatD, gatY, gatZ | 0 | 6
+AgaR | 11 | agaA, kbaY, agaB, agaC, agaR, kbaZ, agaV, agaW, agaS, agaD, agaI | 0 | 11
+Zur | 7 | znuB, ykgO, ykgM, pliG, znuA, znuC, zinT | 0 | 7
+YjjQ | 10 | flhC, flhD, ompC, yfiB, dgcN, ymiA, yciX, ybhL, gfcA, yfiR | 0 | 10
+GutM | 7 | srlE, srlB, srlD, gutM, gutQ, srlR, srlA | 7 | 0
+Ada | 2 | alkA, aidB | 2 | 0
+McbR | 6 | yciE, yciF, yciG, rsd, rmf, mcbA | 5 | 1
+AaeR | 3 | aaeB, aaeA, aaeX | 3 | 0
+YidZ | 4 | malE, rbsD, ppiC, rof | 0 | 4
+ArsR | 3 | arsR, arsB, arsC | 0 | 3
+NadR | 4 | nadA, nadB, pncB, pnuC | 0 | 4
+HypT | 13 | cydA, cydB, cysH, fecA, fecB, fecC, fecD, fecE, metB, metL, metQ, metN, metI | 8 | 5
+UxuR | 11 | fliC, uidA, uxuA, uidB, gntP, exuR, uxuB, uxuR, uidC, lgoR, lgoD | 0 | 11
+BetI | 4 | betA, betB, betI, betT | 0 | 4
+CreB | 16 | ackA, creD, malE, malF, malG, parE, recG, cbrA, cbrB, talA, nudF, pta, malH, yqiA, cpdA, yqiB | 12 | 4
+MarR | 3 | marA, marR, marB | 0 | 3
+RstA | 10 | narG, narH, narI, narJ, ompF, csgG, csgF, csgE, csgD, asr | 5 | 5
+GcvA | 2 | gcvA, gcvB | 1 | 1
+PunR | 1 | punC | 1 | 0
+SgrR | 9 | thiQ, thiP, thiB, setA, sgrR, sgrT, sroA, sgrS, alaC | 4 | 5
+PyrR | 1 | yhjX | 1 | 0
+HigBA | 2 | higA, higB | 0 | 2
+FlhDC | 93 | aceB, adhE, fliL, fliM, fliN, epd, glpA, glpB, glpC, iclR, mdh, mglA, mglB, mglC, pfkA, ptsH, recC, fliD, ppdC, ygdB, ppdB, fliO, fliE, fliF, fliA, fliZ, fliS, fliT, hypF, hydN, fliG, fliH, nfrB, nrfA, nrfB, nrfC, nrfD, nrfE, nrfF, nrfG, fliP, fliQ, fliR, setB, ccmH, ccmG, ccmF, ccmE, ccmC, ccmB, ccmA, napC, napB, napH, napG, napA, napF, ppdA, napD, ccmD, pdeH, gltJ, gltK, gltL, sroC, flgA, flgB, flgC, flgD, flgE, flgF, flgG, flgH, flgI, flgJ, flgM, flhA, fliI, fliJ, fliK, gltI, csgC, ymdA, ymdB, clsC, flgN, ycgR, flhE, flhB, yecR, tcyJ, ygbK, fruB | 89 | 4
+YebK | 1 | yebK | 0 | 1
+AraC | 15 | araE, araF, araG, araH, araJ, xylA, xylB, ygeA, yjfF, ytfQ, ytfR, ytfT, xylZ, ydeM, ydeN | 6 | 9
+PdhR | 54 | aceE, aceF, cyoA, cyoB, cyoC, cyoD, cyoE, ddlB, lpxC, fadL, fecA, fecB, fecC, fecD, fecE, ftsA, ftsI, ftsQ, ftsW, ftsZ, hemL, hha, lpd, mraY, murC, murD, murE, murF, murG, ndh, ppsA, mraZ, rsmH, ftsL, pdhR, ppsR, grcA, lldP, tomB, glcB, acpP, ftsO, glcF, fadH, fadE, gmhA, fadM, ybcV, ybcW, fumD, glcA, glcG, glcE, glcD | 16 | 38
+RcsB | 26 | ftsA, ftsZ, osmB, osmC, hdeA, hdeB, yhiD, gadB, hdeD, sra, rpoE, gadX, rseA, rarA, gadA, rseD, rprA, gadY, lolA, bdm, gadC, ydeO, safA, ydeP, rseC, rseB | 24 | 2
+LacI | 3 | lacA, lacY, lacZ | 0 | 3
+NimR | 2 | nimR, nimT | 0 | 2
+XynR | 5 | yagA, yagB, insX, yagE, yagF | 0 | 5
+RtcR | 2 | rtcA, rtcB | 2 | 0
+AidB | 1 | aidB | 0 | 1
+UidR | 4 | uidA, uidB, uidC, uidR | 0 | 4
+CdaR | 10 | garL, garK, garR, cdaR, garD, garP, rnpB, gudD, gudX, gudP | 10 | 0
+LrhA | 5 | fimE, flhC, flhD, leuO, lrhA | 3 | 2
+TreR | 2 | treC, treB | 0 | 2
+MalT | 11 | lamB, malE, malF, malG, malK, malM, malP, malQ, malZ, malS, malH | 11 | 0
+MngR | 3 | mngR, mngA, mngB | 0 | 3
+CitR | 3 | ybdM, ybdN, citR | 0 | 3
+GntR | 12 | eda, edd, idnK, gntT, idnT, gntK, gntU, yhgH, nfuA, idnR, idnO, idnD | 0 | 12
+KdpE | 9 | kdpA, kdpB, kdpC, adeP, rsd, uxaA, rmf, kdpF, uxaC | 6 | 3
+CsqR | 5 | yihS, yihT, yihU, yihV, csqR | 0 | 5
+NanR | 11 | fimB, nanA, nanX, nanT, nanQ, nanK, nanE, nanY, nanS, nanM, nanC | 1 | 10
+YegW | 3 | yegT, yegU, yegV | 0 | 3
+CsgD | 28 | nlpA, pepD, iraP, dgcC, fliE, fliF, fliA, fliZ, csgA, wrbA, fliG, fliH, yccJ, flgM, fliI, fliJ, fliK, csgI, csgG, csgF, csgE, csgD, csgB, csgC, flgN, tcyJ, yhbS, ubiT | 13 | 15
+YdcI | 5 | iraP, gadB, isrC, flu, smrB | 5 | 0
+EnvY | 2 | ompC, ompF | 2 | 0
+DsdC | 1 | dsdA | 1 | 0

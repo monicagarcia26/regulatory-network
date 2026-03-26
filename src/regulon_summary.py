@@ -8,7 +8,7 @@ with open(filename) as f:
     for line in f:
         line = line.strip() # quita los saltos de línea.
 
-       # Ignorar líneas vacías, comentarios y encabezados.
+        # Ignorar líneas vacías, comentarios y encabezados.
 
         if not line: 
             continue 
@@ -55,13 +55,18 @@ for tf, gen, efecto in interacciones:
             clasificacion[tf][efecto] += 1
 
 
-# Imprimir la tabla final
+# Generación de un archivo de salida.
 
-print("TF | No. de genes que regula | Genes regulados | + | -")
-for tf in regulon:
-    numero = len(regulon[tf])
-    genes = ", ".join(regulon[tf])
-    mas = clasificacion.get(tf, {}).get("+", 0)
-    menos = clasificacion.get(tf, {}).get("-", 0)
-    print(tf, "|", numero, "|", genes, "|", mas, "|", menos)
+with open("../results/regulon_summary_output.txt", "w") as out:
+    out.write("TF | No. de genes que regula | Genes regulados | + | -\n")
 
+    print("TF | No. de genes que regula | Genes regulados | + | -")
+    for tf in regulon:
+        numero = len(regulon[tf])
+        genes = ", ".join(regulon[tf])
+        mas = clasificacion.get(tf, {}).get("+", 0)
+        menos = clasificacion.get(tf, {}).get("-", 0)
+        linea = f"{tf} | {numero} | {genes} | {mas} | {menos}\n"
+        out.write(linea)
+        print(tf, "|", numero, "|", genes, "|", mas, "|", menos)
+  
