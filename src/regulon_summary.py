@@ -1,6 +1,7 @@
 # Lectura de datos desde un archivo TSV. 
 
-filename = "data/raw/Network_RegulatorGene.tsv"
+filename = "../data/raw/NetworkRegulatorGene.tsv"
+interacciones = []  # Inicializar lista para almacenar interacciones
 
 with open(filename) as f:
     
@@ -27,12 +28,12 @@ with open(filename) as f:
 
         TF= fields[1]
         gene= fields[4]
-        effect= fields[5]
+        efecto= fields[5]
 
-        if effect not in ["+", "-"]:
+        if efecto not in ["+", "-"]:
             continue
 
-        interactions.append((TF, gene, effect))
+        interacciones.append((TF, gene, efecto))
 
 
 # Construir diccionario de TF y lista de genes
