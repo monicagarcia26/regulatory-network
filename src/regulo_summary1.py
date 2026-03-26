@@ -1,5 +1,5 @@
 
-# Datos de ejemplo:
+# Datos de entrada:
 
 interacciones = [
     ("TF1", "GeneA", "+"),
@@ -25,8 +25,8 @@ for tf, gen, efecto in interacciones:
             regulon[tf].append(gen)
         
         if tf not in clasificacion:
-             clasificacion[tf]= { '+' : 0 , '-' : 0 }
-        if efecto in { '+', '-' }: 
+             clasificacion[tf]= { '+' : 0 , '-' : 0 }  #  cada tf apunta a un diccionario con conteo de efectos positivos y negativos. 
+        if efecto == "+" or efecto == "-": 
             clasificacion[tf][efecto] += 1
 
 

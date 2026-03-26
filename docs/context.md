@@ -17,15 +17,29 @@ LexA recA -
 
 ```
 
-
-Objetivo del programa:
+**Objetivo del programa:**
 
 Generar una tabla que indique para cada TF:
 
 - Nombre del TF (esta columna debe estar ordenada)
-- total de genes regulados
-- lista de genes regulados (ordenada) 
+- Total de genes regulados
+- Número de genes activados (efecto `+`)
+- Número de genes reprimidos (efecto `-`)
+- Tipo de regulador:
+  - `activador` si sólo hay activaciones
+  - `represor` si sólo hay represión
+  - `dual` si hay ambos tipos
+- Lista de genes regulados (ordenada)
 
+Ejemplo de salida:
+
+```
+
+TF	Total genes	Activados	Reprimidos	Tipo	Genes
+AraC	2	1	1	dual	araA, araB
+
+```
+  
 ## Actualización v1.1 
 
 1. Leer los datos desde un archivo. 

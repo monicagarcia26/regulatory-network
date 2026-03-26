@@ -1,24 +1,30 @@
-# Diseño de la solución
+## Algoritmo
 
-## Algoritmo 
-- Lista/ estructura de reguladores (sin repeticiones). 
-- Lista de genes del regulador (sin repeticiones)*
-- Recorrer todas las interacciones (línea). 
-- Para cada interacción
-  - Obtener el TF 
-  - Obtener el gene
-  - Si el TF no está en la lista de reguladores:
-    - Guardar el TF en una estructura/lista
-  - Si el gene no está en la lista de genes regulados por regulador
-    - Guarda el gene asociado 
+- Estructura principal: diccionario `regulon` con clave=TF y valor un diccionario con campos:
+  - `genes`: lista de genes regulados
+  - `activados`: contador de interacciones con efecto `+`
+  - `reprimidos`: contador de interacciones con efecto `-`
 
-- Recorrer toda la lista de los reguladores 
- - Contar los genes de la lista de genes regulados por el TF 
- - Imprime regulador, conteo, lista de genes 
+- Recorrer todas las interacciones (una por línea):
+  - Obtener el TF, el gene y el efecto
+  - Si el TF no existe en `regulon`, inicializar su estructura
+  - Agregar el gen a la lista `genes`
+  - Incrementar `activados` o `reprimidos` según el efecto
 
-**Extensión**
+- Recorrer los TF ordenados:
+  - Ordenar la lista de genes del TF
+  - Calcular el total de genes regulados
+  - Determinar el tipo de regulador:
+    - `dual` si hay activaciones y represiones
+    - `activador` si sólo hay activaciones
+    - `represor` si sólo hay represiones
+  - Imprimir: TF, total, activados, reprimidos, tipo, lista de genes
 
-- Clasificar cada Tf como: 
- - activador 
- - represor 
- - dual
+  ## Actualización 1.1 
+
+- Leer los datos desde un archivo. 
+- Limpiar los datos.
+- Validar.
+- Extraer la información. 
+- Construir las interacciones.
+- Generar la salida a un archivo.
