@@ -43,8 +43,6 @@ AraC	2	1	1	dual	araA, araB
 ## Actualización v1.1 
 
 1. Leer los datos desde un archivo. 
- 1. El archivo trae 7 columnas, y las que utilizaremos son: 
-  - 
-  -
+ 1. El archivo trae 7 columnas.
 2. Los resultados deberan de mandarse a un archivo de salida. 
 

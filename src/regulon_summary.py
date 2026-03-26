@@ -63,10 +63,9 @@ with open("../results/regulon_summary_output.txt", "w") as out:
     print("TF | No. de genes que regula | Genes regulados | + | -")
     for tf in regulon:
         numero = len(regulon[tf])
-        genes = ", ".join(regulon[tf])
+        genes = ", ".join(regulon[tf]) # convierte la lista de genes en texto separado por comas.  
         mas = clasificacion.get(tf, {}).get("+", 0)
         menos = clasificacion.get(tf, {}).get("-", 0)
-        linea = f"{tf} | {numero} | {genes} | {mas} | {menos}\n"
-        out.write(linea)
-        print(tf, "|", numero, "|", genes, "|", mas, "|", menos)
+        out.write(f"{tf} | {numero} | {genes} | {mas} | {menos}\n")
+        print(tf, "|", numero, "|", genes, "|", mas, "|", menos)    
   

@@ -18,3 +18,40 @@ for tf in regulon:
     print(tf, "|", numero, "|", genes, "|", mas, "|", menos)
 
 ```
+# Interacción 2 
+
+**Pregunta:** 
+
+me ayudas a redactar el archivo README de regulo_summary.py para su ejecucuón, usando uv
+
+**Respuesta** 
+
+Para ejecutar el script de análisis de regulones:
+
+```bash
+uv run python src/regulon_summary.py
+```
+
+O si prefieres ejecutar directamente con uv:
+
+```bash
+uv run src/regulon_summary.py
+```
+
+## Datos de entrada
+
+El script lee el archivo `data/raw/NetworkRegulatorGene.tsv` que debe contener:
+- Columnas separadas por tabulaciones
+- Campos: reguladorId, TF, gene, efecto (+ o -), etc.
+
+## Salida
+
+El script genera:
+- Un archivo de salida: `results/regulon_summary_output.txt`
+- Una tabla impresa en la terminal con:
+  - TF: Factor de transcripción
+  - No. de genes que regula: Cantidad de genes regulados
+  - Genes regulados: Lista de genes
+  - +: Conteo de efectos positivos
+  - -: Conteo de efectos negativos
+
