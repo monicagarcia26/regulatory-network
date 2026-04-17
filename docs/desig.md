@@ -20,7 +20,7 @@
     - `represor` si sólo hay represiones
   - Imprimir: TF, total, activados, reprimidos, tipo, lista de genes
 
-  ## Actualización 1.1 
+  ## Actualización v1.1 
 
 - Leer los datos desde un archivo. 
 - Limpiar los datos.
@@ -28,3 +28,11 @@
 - Extraer la información. 
 - Construir las interacciones.
 - Generar la salida a un archivo.
+
+## Actualización v1.2 
+
+El programa recibirá dos argumentos desde la línea de comandos. 
+
+Flujo: 
+
+usuario --> CLI --> main() --> funciones 

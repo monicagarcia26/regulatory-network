@@ -92,10 +92,25 @@ interactions = [
 
 Salida esperada:
 
-```
+```()
 
 TF | No. de genes que regula | Genes regulados | + | -
 LexA | 2 | recA, umuC | 0 | 2
 AraC | 2 | araE, araA | 1 | 1
 
 ```
+
+## Command Line Interface (CLI)
+
+Caso: Correr el programa con paso de argumentos: 
+
+Entrada: 
+
+```bash
+uv run python regulon_summary.py input.txt output.txt 
+
+uv run python regulon_sumary.py NetworkRegulatorGene.tsv tf_summary.txt 
+```
+
+Resultado: 
+El programa lea el archivo de entrada y genere el resultado con el no,bre que se le paso como argumento. 

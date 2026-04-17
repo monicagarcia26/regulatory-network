@@ -46,3 +46,9 @@ AraC	2	1	1	dual	araA, araB
  1. El archivo trae 7 columnas.
 2. Los resultados deberan de mandarse a un archivo de salida. 
 
+## Actualización v1.2 
+
+Elproblema actual es que el programa depende de rutas fijas (hardcoded). 
+
+Nuevo requisito: 
+El programa debe de recibir 2 argumentos, el archivo de entrada y el archivo de salida. 

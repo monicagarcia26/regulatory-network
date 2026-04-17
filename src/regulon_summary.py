@@ -1,15 +1,17 @@
-# ========================================
-# Lectura de datos desde un archivo TSV. 
-#=========================================
-
-#===========================================
-# Responsabilidad de este bloque de código: Leer el archivo "NetworkRegulatorGene.tsv".
-# Entrada: Archivo de texto con información sobre reguladores, genes y efectos.
-# Salida: Lista de tuplas con (TF, gene, efecto) para cada interacción  
-#============================================
+import argparse
+import os
 
 def load_interacciones(filename):
-    """Carga las interacciones desde un archivo TSV y devuelve una lista de tuplas (TF, gene, efecto) para cada interacción válida."""
+    # ========================================
+    # Lectura de datos desde un archivo TSV. 
+    #=========================================
+
+    #===========================================
+    # Responsabilidad de este bloque de código: Leer el archivo "NetworkRegulatorGene.tsv".
+    # Entrada: Archivo de texto con información sobre reguladores, genes y efectos.
+    # Salida: Lista de tuplas con (TF, gene, efecto) para cada interacción  
+    #============================================
+
     interacciones = []  # Inicializar lista para almacenar interacciones
 
     with open(filename) as f:
@@ -101,37 +103,41 @@ def generate_output(regulon, clasificacion, output_file):
 
 
 def main():
-    """Función principal que orquesta el flujo del programa."""
-    try:
-        print("Iniciando análisis de regulon...")
-        
-        # Configurar rutas de entrada y salida
-        filename = "../data/raw/NetworkRegulatorGene.tsv"
-        output_file = "../results/regulon_summary_output.txt"
-        
-        # Cargar interacciones desde el archivo
-        print(f"Cargando interacciones desde {filename}...")
-        interacciones = load_interacciones(filename)
-        print(f"✓ Se cargaron {len(interacciones)} interacciones.")
-        
-        # Construir diccionarios de regulon y clasificación
-        print("Construyendo diccionarios de TF y clasificación...")
-        regulon, clasificacion = build_regulon_and_clasificacion(interacciones)
-        print(f"✓ Se identificaron {len(regulon)} factores de transcripción (TF).")
-        
-        # Generar archivo de salida
-        print(f"Generando salida en {output_file}...")
-        generate_output(regulon, clasificacion, output_file)
-        print(f"✓ Análisis completado exitosamente.")
-        print(f"✓ Archivo de salida: {output_file}")
-        
-    except FileNotFoundError as e:
-        print(f"✗ Error: No se encontró el archivo - {e}")
-    except Exception as e:
-        print(f"✗ Error inesperado: {e}")
+
+    #Función principal que orquesta la ejecución del programa. Lee los argumentos, carga las interacciones, construye el regulón y la clasificación, y genera el archivo de salida.
+
+    parser = argparse.ArgumentParser(
+        description="Lee un archivo TSV con interacciones reguladoras y muestra un resumen de los reguladores y sus efectos."
+    )
+
+    parser.add_argument(
+        "input_file", help="Archivo de entrada en formato TSV con las interacciones reguladoras."
+    )
+    parser.add_argument(
+        "output_file", help="Archivo de salida donde se guardará el resumen de los reguladores."
+    )
+    parser.add_argument(
+        "--min_genes", type=int, default=1, help="Número mínimo de genes regulados para incluir un regulador en el resumen."
+    )
+
+    args = parser.parse_args()  # leer los argumentos desde la línea de comandos
+
+    if not os.path.isfile(args.input_file):
+        parser.error(f"El archivo de entrada '{args.input_file}' no existe o no es un archivo válido.")
+
+    print(args)
+    print(f"Archivo de entrada: {args.input_file}")
+    print(f"Archivo de salida: {args.output_file}")
+    print(f"Número mínimo de genes regulados: {args.min_genes}")
+
+    interacciones = load_interacciones(args.input_file)
+    regulon, clasificacion = build_regulon_and_clasificacion(interacciones)
+    generate_output(regulon, clasificacion, args.output_file)
 
 
 if __name__ == "__main__":
     main()
+
+
 
 
