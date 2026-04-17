@@ -55,3 +55,10 @@ El script genera:
   - +: Conteo de efectos positivos
   - -: Conteo de efectos negativos
 
+# Interacción 3 
+
+Implementa el TODO para validar input_file.
+
+# Interacción 4 
+
+implementa el # TODO: mover argparse a una función parse_arguments

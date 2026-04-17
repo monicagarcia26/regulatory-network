@@ -102,10 +102,7 @@ def generate_output(regulon, clasificacion, output_file):
             out.write(f"{tf} | {numero} | {genes} | {mas} | {menos}\n")
 
 
-def main():
-
-    #Función principal que orquesta la ejecución del programa. Lee los argumentos, carga las interacciones, construye el regulón y la clasificación, y genera el archivo de salida.
-
+def parse_arguments():
     parser = argparse.ArgumentParser(
         description="Lee un archivo TSV con interacciones reguladoras y muestra un resumen de los reguladores y sus efectos."
     )
@@ -124,6 +121,15 @@ def main():
 
     if not os.path.isfile(args.input_file):
         parser.error(f"El archivo de entrada '{args.input_file}' no existe o no es un archivo válido.")
+
+    return args
+
+
+def main():
+
+    #Función principal que orquesta la ejecución del programa. Lee los argumentos, carga las interacciones, construye el regulón y la clasificación, y genera el archivo de salida.
+
+    args = parse_arguments()
 
     print(args)
     print(f"Archivo de entrada: {args.input_file}")
