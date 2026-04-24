@@ -11,40 +11,36 @@ def load_interacciones(filename):
     # Entrada: Archivo de texto con información sobre reguladores, genes y efectos.
     # Salida: Lista de tuplas con (TF, gene, efecto) para cada interacción  
     #============================================
+    
 
-    interacciones = []  # Inicializar lista para almacenar interacciones
+    if not os.path.exists(filename):
+        raise RuntimeError(f"Error: Archivo no existe --> {filename}")
+    if os.path.getsize(filename) == 0:
+        raise RuntimeError(f"Error: Archivo vacío --> {filename}")
 
-    with open(filename) as f:
-        
-        for line in f:
-            line = line.strip() # quita los saltos de línea.
+    interacciones = []
 
-            # Ignorar líneas vacías, comentarios y encabezados.
-
-            if not line: 
-                continue 
-
-            if line.startswith("#"): # líneas que empiecen con #. 
-                continue
-
-            if line.startswith("1)reguladorId"): # si empieza así ignórala. 
-                continue
-
-            fields = line.split("\t") # separar por tabulaciones.
-
-            # Validar que haya suficientes campos y que el efecto sea válido.
-            
-            if len(fields) <= 5: 
-                continue
-
-            TF= fields[1]
-            gene= fields[4]
-            efecto= fields[5]
-
-            if efecto not in ["+", "-"]:
-                continue
-
-            interacciones.append((TF, gene, efecto))
+    try:
+        with open(filename, encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#") or line.startswith("1)reguladorId"):
+                    continue
+                fields = line.split("\t")
+                if len(fields) <= 5:
+                    continue
+                TF = fields[1].strip()
+                gene = fields[4].strip()
+                efecto = fields[5].strip()
+                if efecto not in ["+", "-"]:
+                    continue
+                interacciones.append((TF, gene, efecto))
+    except PermissionError:
+        raise RuntimeError(f"Error: No hay permisos para leer {filename}")
+    except UnicodeDecodeError:
+        raise RuntimeError(f"Error: El archivo {filename} no es UTF-8 válido")
+    except OSError as e:
+        raise RuntimeError(f"Error I/O al leer {filename}: {e}")
 
     return interacciones
 
@@ -92,14 +88,28 @@ def generate_output(regulon, clasificacion, output_file):
     # Salida: Archivo de texto con un resumen de los reguladores.   
     # ==========================================
 
-    with open(output_file, "w") as out:
-        out.write("TF | No. de genes que regula | Genes regulados | + | -\n")
-        for tf in regulon:
-            numero = len(regulon[tf])
-            genes = ", ".join(regulon[tf]) # convierte la lista de genes en texto separado por comas.  
-            mas = clasificacion.get(tf, {}).get("+", 0)
-            menos = clasificacion.get(tf, {}).get("-", 0)
-            out.write(f"{tf} | {numero} | {genes} | {mas} | {menos}\n")
+    try:
+        with open(output_file, "w") as out:
+            # Cabecera exacta del original
+            out.write("TF\tTotal genes\tActivados\tReprimidos\tTipo\tGenes\n")
+            for tf in sorted(regulon):
+                genes = regulon[tf]
+                total = len(genes)
+                mas = clasificacion.get(tf, {}).get("+", 0)
+                menos = clasificacion.get(tf, {}).get("-", 0)
+                # Determinar tipo
+                if mas == 0:
+                    tipo = "represor"
+                elif menos == 0:
+                    tipo = "activador"
+                else:
+                    tipo = "dual"
+                lista_genes = ", ".join(sorted(genes))
+                out.write(f"{tf}\t{total}\t{mas}\t{menos}\t{tipo}\t{lista_genes}\n")
+    except PermissionError:
+        raise RuntimeError(f"Error: No hay permisos para escribir {output_file}")
+    except OSError as e:
+        raise RuntimeError(f"Error I/O al escribir {output_file}: {e}")
 
 
 def parse_arguments():
@@ -118,7 +128,7 @@ def parse_arguments():
     )
 
     args = parser.parse_args()  # leer los argumentos desde la línea de comandos
-
+    
     if not os.path.isfile(args.input_file):
         parser.error(f"El archivo de entrada '{args.input_file}' no existe o no es un archivo válido.")
 
@@ -126,19 +136,35 @@ def parse_arguments():
 
 
 def main():
-
-    #Función principal que orquesta la ejecución del programa. Lee los argumentos, carga las interacciones, construye el regulón y la clasificación, y genera el archivo de salida.
-
     args = parse_arguments()
 
-    print(args)
-    print(f"Archivo de entrada: {args.input_file}")
-    print(f"Archivo de salida: {args.output_file}")
-    print(f"Número mínimo de genes regulados: {args.min_genes}")
+    # Crear directorio de salida si no existe
+    output_dir = os.path.dirname(args.output_file)
+    if output_dir and not os.path.exists(output_dir):
+        try:
+            os.makedirs(output_dir, exist_ok=True)
+        except PermissionError:
+            print(f"Error: No hay permisos para crear el directorio {output_dir}")
+            exit(1)
 
-    interacciones = load_interacciones(args.input_file)
-    regulon, clasificacion = build_regulon_and_clasificacion(interacciones)
-    generate_output(regulon, clasificacion, args.output_file)
+    try:
+        interacciones = load_interacciones(args.input_file)
+        regulon, clasificacion = build_regulon_and_clasificacion(interacciones)
+
+        # Filtrar por min_genes (como en el original)
+        regulon_filtrado = {}
+        clasificacion_filtrada = {}
+        for tf, genes in regulon.items():
+            if len(genes) >= args.min_genes:
+                regulon_filtrado[tf] = genes
+                clasificacion_filtrada[tf] = clasificacion[tf]
+
+        generate_output(regulon_filtrado, clasificacion_filtrada, args.output_file)
+        print(f"Resumen del regulón guardado en: {args.output_file}")
+
+    except RuntimeError as e:
+        print(e)
+        exit(1)
 
 
 if __name__ == "__main__":
